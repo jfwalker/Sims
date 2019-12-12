@@ -1,0 +1,80 @@
+IQ-TREE multicore version 1.6.11 for Mac OS X 64-bit built Jul 12 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    slpc437 (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -lmap ALL -n 0 -s ENSGALG00000008314.fa.info.test -m TEST -m GTR+G -nt 4
+Seed:    480182 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  4 11:15:15 2019
+Kernel:  AVX+FMA - 4 threads (6 CPU cores detected)
+
+Reading alignment file ENSGALG00000008314.fa.info.test ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 10 sequences with 441 columns, 173 distinct patterns
+123 parsimony-informative, 47 singleton sites, 271 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  Anolis              0.00%    passed     68.87%
+   2  Gallus              0.00%    passed     90.87%
+   3  Homo                0.00%    passed     49.56%
+   4  Monodelphis         2.04%    passed     91.99%
+   5  Ornithorhynchus    20.41%    passed     69.97%
+   6  Taeniopygia         0.00%    passed     47.46%
+   7  Xenopus             0.00%    passed     78.25%
+   8  alligator           0.00%    passed     47.05%
+   9  emys_orbicularis   10.88%    failed      1.69%
+  10  phrynops            0.00%    failed      3.61%
+****  TOTAL               3.33%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2181.467
+2. Current log-likelihood: -2075.299
+3. Current log-likelihood: -2070.321
+4. Current log-likelihood: -2070.031
+5. Current log-likelihood: -2070.008
+Optimal log-likelihood: -2070.006
+Rate parameters:  A-C: 2.15171  A-G: 3.64204  A-T: 1.32985  C-G: 0.30708  C-T: 8.50595  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.194  G: 0.238  T: 0.249
+Gamma shape alpha: 0.270
+Parameters optimization took 5 rounds (0.041 sec)
+
+Performing likelihood mapping with all quartets...
+Computing 210 quartet likelihoods (one dot represents 100 quartets).
+
+... : 21. : 0. : 2102
+
+: 21. : 0. : 2102. : 1021
+
+
+
+
+
+
+
+
+
+
+likelihood mapping plot (SVG) written to ENSGALG00000008314.fa.info.test.lmap.svg
+likelihood mapping plot (EPS) written to ENSGALG00000008314.fa.info.test.lmap.eps
+Likelihood mapping needed 0.118 seconds
+
+BEST SCORE FOUND : -2070.006
+Total tree length: 1.300
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.340 sec (0h:0m:0s)
+Total wall-clock time used: 0.185 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                ENSGALG00000008314.fa.info.test.iqtree
+  Maximum-likelihood tree:       ENSGALG00000008314.fa.info.test.treefile
+  Likelihood mapping plot (SVG): ENSGALG00000008314.fa.info.test.lmap.svg
+  Likelihood mapping plot (EPS): ENSGALG00000008314.fa.info.test.lmap.eps
+  Screen log file:               ENSGALG00000008314.fa.info.test.log
+
+Date and Time: Wed Sep  4 11:15:15 2019

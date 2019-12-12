@@ -1,0 +1,116 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: cluster2292rr.1to1ortho.fa.aln-cln_gene576.fa
+Type of analysis: tree reconstruction
+Random seed number: 994914
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 939 nucleotide sites
+Number of constant sites: 509 (= 54.2066% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 509 (= 54.2066% of all sites)
+Number of parsimony informative sites: 309
+Number of distinct site patterns: 392
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.7697
+  A-G: 4.2067
+  A-T: 1.4300
+  C-G: 1.5375
+  C-T: 7.0470
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2616
+  pi(C) = 0.1668
+  pi(G) = 0.2681
+  pi(T) = 0.3035
+
+Rate matrix Q:
+
+  A   -0.9354    0.1487    0.5681    0.2186
+  C    0.2332    -1.518    0.2076     1.077
+  G    0.5543    0.1292   -0.8364    0.1528
+  T    0.1884    0.5921     0.135   -0.9156
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3778
+
+ Category  Relative_rate  Proportion
+  1         0.01365        0.25
+  2         0.165          0.25
+  3         0.7061         0.25
+  4         3.115          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5746.1168 (s.e. 159.9200)
+Unconstrained log-likelihood (without tree): -3921.0638
+Number of free parameters (#branches + #model parameters): 32
+Akaike information criterion (AIC) score: 11556.2336
+Corrected Akaike information criterion (AICc) score: 11558.5647
+Bayesian information criterion (BIC) score: 11711.2677
+
+Total tree length (sum of branch lengths): 1.3857
+Sum of internal branch lengths: 0.4663 (33.6518% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DrolusSFB' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++------------------DrolusSFB
+|
+|                                   +--------------Dino
+|                               +---| (0.8)
+|                               |   +---------------MJM1652
+|            +------------------| (100)
+|            |                  +-------------------------DrobinSFB
+|        +---| (94.6)
+|        |   |               +--Neam
+|        |   +---------------| (100)
+|        |                   +--NepSFB
++--------| (99.1)
+|        |          +----------------------------MJM3360
+|        |     +----| (77.5)
+|        |     |    +------------------------RuprSFB
+|        |  +--| (24.7)
+|        |  |  |               +-----------Retr
+|        |  |  +---------------| (99.9)
+|        |  |                  +------------------WPYJ
+|        +--| (81.8)
+|           |                      +--------Beta
+|           +----------------------| (100)
+|                                  +----------Spol
+|
++--------------MJM2940
+
+Tree in newick format:
+
+(DrolusSFB:0.0892661096,((((Dino:0.0681737534,MJM1652:0.0741019987)0.8:0.0206069135,DrobinSFB:0.1207774608)100:0.0852889144,(Neam:0.0033980363,NepSFB:0.0071207044)100:0.0750152180)94.6:0.0219435885,(((MJM3360:0.1303030997,RuprSFB:0.1153827712)77.5:0.0244576958,(Retr:0.0576198097,WPYJ:0.0885900483)99.9:0.0717121252)24.7:0.0072126453,(Beta:0.0439553018,Spol:0.0495734838)100:0.1071165825)81.8:0.0125201937)99.1:0.0404322882,MJM2940:0.0711108965);
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 25 10:01:53 2019
+Total CPU time used: 4.31056 seconds (0h:0m:4s)
+Total wall-clock time used: 4.29132 seconds (0h:0m:4s)
+

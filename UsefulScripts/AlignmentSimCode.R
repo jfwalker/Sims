@@ -1,0 +1,7 @@
+library(vioplot)
+par(mfrow=c(2,1))
+setwd("/Users/joseph.walker/Desktop/OutlierFinal/AlnSim/")
+a = read.csv("All_GWLL.csv",header=FALSE)
+b = read.csv("All_SSLL.csv",header=FALSE)
+vioplot(a[,1],a[,2],a[,3],a[,4],a[,5],main="GWLL Two-Topology Test",ylab= "ΔGWLL",xlab="Gene")
+vioplot(b[,1],b[,2],b[,3],b[,4],b[,5],main="Avg. SSLL Two-Topology Test",ylab= "ΔSSLL",xlab="Gene")

@@ -1,0 +1,119 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: cluster4018rr.1to1ortho.fa.aln-cln_gene781.fa
+Type of analysis: tree reconstruction
+Random seed number: 436089
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 486 nucleotide sites
+Number of constant sites: 286 (= 58.8477% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 286 (= 58.8477% of all sites)
+Number of parsimony informative sites: 139
+Number of distinct site patterns: 189
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 2.9172
+  A-G: 7.6607
+  A-T: 1.1128
+  C-G: 3.1391
+  C-T: 13.0559
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3045
+  pi(C) = 0.162
+  pi(G) = 0.2446
+  pi(T) = 0.2888
+
+Rate matrix Q:
+
+  A   -0.8242     0.146    0.5789    0.0993
+  C    0.2744    -1.677    0.2372     1.165
+  G    0.7207    0.1571   -0.9671   0.08923
+  T    0.1047    0.6535   0.07557   -0.8337
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2895
+
+ Category  Relative_rate  Proportion
+  1         0.004482       0.25
+  2         0.09635        0.25
+  3         0.5777         0.25
+  4         3.321          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2682.2283 (s.e. 111.4190)
+Unconstrained log-likelihood (without tree): -1766.8227
+Number of free parameters (#branches + #model parameters): 32
+Akaike information criterion (AIC) score: 5428.4566
+Corrected Akaike information criterion (AICc) score: 5433.1189
+Bayesian information criterion (BIC) score: 5562.4153
+
+Total tree length (sum of branch lengths): 1.3887
+Sum of internal branch lengths: 0.4220 (30.3880% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DrolusSFB' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++---------------------------------------DrolusSFB
+|
+|                                  +---------------Dino
+|                           +------| (81.8)
+|                           |      +------------MJM1652
+|              +------------| (95.9)
+|              |            +-----------------------DrobinSFB
+|         +----| (57.9)
+|         |    +------------------------------------------MJM3360
+|      +--| (76)
+|      |  +--------------------------------------------------RuprSFB
+|   +**| (0)
+|   |  |                             +----------Beta
+|   |  +-----------------------------| (100)
+|   |                                +---------------Spol
++---| (66.1)
+|   |                       +------------Retr
+|   +-----------------------| (99.7)
+|                           +-----------------------------WPYJ
+|
+|                             +**Neam
+|  +--------------------------| (100)
+|  |                          +--NepSFB
++--| (13.7)
+   +--------MJM2940
+
+Tree in newick format:
+
+(DrolusSFB:0.1444255768,((((((Dino:0.0569914743,MJM1652:0.0476857242)81.8:0.0268093008,DrobinSFB:0.0889074889)95.9:0.0488526653,MJM3360:0.1530453186)57.9:0.0204644889,RuprSFB:0.1830188669)76:0.0095953398,(Beta:0.0394555168,Spol:0.0601831116)100:0.1079600271)0:0.0000020323,(Retr:0.0463370420,WPYJ:0.1089412635)99.7:0.0869732948)66.1:0.0175156090,((Neam:0.0000020056,NepSFB:0.0042100142)100:0.0962921499,MJM2940:0.0334790235)13.7:0.0075247036);
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 25 10:43:21 2019
+Total CPU time used: 4.07073 seconds (0h:0m:4s)
+Total wall-clock time used: 4.85772 seconds (0h:0m:4s)
+

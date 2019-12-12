@@ -1,0 +1,146 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: ForTCA.fa
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 543471
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 441 nucleotide sites
+Number of constant sites: 271 (= 61.4512% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 271 (= 61.4512% of all sites)
+Number of parsimony informative sites: 123
+Number of distinct site patterns: 173
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 2.4253
+  A-G: 3.9566
+  A-T: 1.4462
+  C-G: 0.3865
+  C-T: 9.5967
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3188
+  pi(C) = 0.1942
+  pi(G) = 0.2376
+  pi(T) = 0.2494
+
+Rate matrix Q:
+
+  A   -0.8005    0.2128    0.4248    0.1629
+  C    0.3493    -1.472   0.04149     1.081
+  G    0.5698   0.03392   -0.7164    0.1127
+  T    0.2083    0.8421    0.1074    -1.158
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2704
+
+ Category  Relative_rate  Proportion
+  1         0.003201       0.25
+  2         0.08176        0.25
+  3         0.5426         0.25
+  4         3.372          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2067.9389 (s.e. 83.7572)
+Unconstrained log-likelihood (without tree): -1747.2485
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 4187.8777
+Corrected Akaike information criterion (AICc) score: 4191.2690
+Bayesian information criterion (BIC) score: 4294.1929
+
+Total tree length (sum of branch lengths): 1.3034
+Sum of internal branch lengths: 0.4047 (31.0476% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Anolis' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--------Anolis
+|
+|    +--Gallus
++----| (92)
+|    +---Taeniopygia
+|
+|     +--Homo
+|  +--| (12)
+|  |  |  +----Monodelphis
+|  |  +--| (12)
+|  |     |     +--------------------------Xenopus
+|  |     +-----| (32)
+|  |           |        +------------------------------------alligator
+|  |           +--------| (49)
+|  |                    |                  +---emys_orbicularis
+|  |                    +------------------| (99)
+|  |                                       +--phrynops
++--| (44)
+   +------Ornithorhynchus
+
+Tree in newick format:
+
+(Anolis:0.0844418701,(Gallus:0.0118701931,Taeniopygia:0.0416266722)92:0.0441081338,((Homo:0.0327897317,(Monodelphis:0.0491178186,(Xenopus:0.2421150022,(alligator:0.3310169439,(emys_orbicularis:0.0351531394,phrynops:0.0079907357)99:0.1677427547)49:0.0811894828)32:0.0550246045)12:0.0155633820)12:0.0155572820,Ornithorhynchus:0.0626356935)44:0.0255026034);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100bootstrap trees
+Log-likelihood of consensus tree: -2069.601547
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------Anolis
+|
+|    +--Gallus
++----| (92)
+|    +----Taeniopygia
+|
+|        +---Homo
+|     +--| (22)
+|     |  +------Monodelphis
+|  +--| (16)
+|  |  +------Ornithorhynchus
++--| (44)
+   |       +-----------------------------Xenopus
+   +-------| (32)
+           |        +---------------------------------------alligator
+           +--------| (49)
+                    |                  +---emys_orbicularis
+                    +------------------| (99)
+                                       +--phrynops
+
+
+Consensus tree in newick format: 
+
+(Anolis:0.0824098351,(Gallus:0.0118317716,Taeniopygia:0.0419469510)92:0.0468905008,(((Homo:0.0339235516,Monodelphis:0.0637826999)22:0.0121401072,Ornithorhynchus:0.0649378434)16:0.0116999666,(Xenopus:0.2489626233,(alligator:0.3368433410,(emys_orbicularis:0.0358479212,phrynops:0.0075156565)99:0.1627975799)49:0.0754914514)32:0.0664841771)44:0.0185362379);
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep  4 11:19:51 2019
+Total CPU time used: 0.594587 seconds (0h:0m:0s)
+Total wall-clock time used: 0.6098270001 seconds (0h:0m:0s)
+

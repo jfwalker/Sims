@@ -1,0 +1,360 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: 7159_C12.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 444957
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 55 sequences with 12 nucleotide sites
+Number of constant sites: 1 (= 8.33333% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1 (= 8.33333% of all sites)
+Number of parsimony informative sites: 9
+Number of distinct site patterns: 12
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 63.8828
+  A-G: 29.0002
+  A-T: 50.1621
+  C-G: 10.8978
+  C-T: 14.3729
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.09883
+  pi(C) = 0.1439
+  pi(G) = 0.4273
+  pi(T) = 0.33
+
+Rate matrix Q:
+
+  A    -3.623    0.8736     1.177     1.572
+  C    0.5998    -1.493    0.4424    0.4505
+  G    0.2723     0.149   -0.4527   0.03135
+  T     0.471    0.1965   0.04059   -0.7081
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 998.4
+
+ Category  Relative_rate  Proportion
+  1         0.9601         0.25
+  2         0.9894         0.25
+  3         1.01           0.25
+  4         1.041          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -134.6661 (s.e. 22.5132)
+Unconstrained log-likelihood (without tree): -29.8189
+Number of free parameters (#branches + #model parameters): 116
+Akaike information criterion (AIC) score: 501.3323
+Corrected Akaike information criterion (AICc) score: 27645.3323
+Bayesian information criterion (BIC) score: 557.5815
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 116
+Sample size (n, alignment length): 12
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 3.6303
+Sum of internal branch lengths: 1.8952 (52.2056% of tree length)
+
+WARNING: 40 near-zero internal branches (<0.0833) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Sabal_bermudana' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++**Sabal_bermudana
+|
+|         +**Saruma_henryi
+|      +**| (5)
+|      |  +**Taxus_baccata
+|   +**| (0)
+|   |  |                                                                              +-----------------------Chlorokybus_atmophyticus
+|   |  |                                                                      +-------| (38)
+|   |  |                                                                      |       +--------Ceratodon_purpureus
+|   |  |                                                     +----------------| (47)
+|   |  |                                                     |                +**Psilotum_nudum
+|   |  |                                                  +--| (1)
+|   |  |                                                  |  |  +---Arabidopsis_thaliana
+|   |  |                                                  |  +**| (0)
+|   |  |                                                  |     |                  +**Zea_mays
+|   |  |                                                  |     |               +**| (63)
+|   |  |                                                  |     |               |  +**Sorghum_bicolor
+|   |  |                                                  |     |        +------| (38)
+|   |  |                                                  |     |        |      |   +**Oryza_sativa
+|   |  |                                                  |     |        |      +---| (52)
+|   |  |                                                  |     |        |          +---Brachypodium_distachyon
+|   |  |                                                  |     |     +**| (1)
+|   |  |                                                  |     |     |  |     +**Nothoceros_vincentianus
+|   |  |                                                  |     |     |  |  +**| (60)
+|   |  |                                                  |     |     |  |  |  +**Nothoceros_aenigmaticus
+|   |  |                                                  |     |     |  +**| (13)
+|   |  |                                                  |     |     |     |            +**Cylindrocystis_brebissonii
+|   |  |                                                  |     |     |     +------------| (51)
+|   |  |                                                  |     |     |                  +-----------Cylindrocystis_cushleckae
+|   |  |                                                  |     |  +**| (5)
+|   |  |                                                  |     |  |  +**Ipomoea_purpurea
+|   |  |                                                  |     +**| (1)
+|   |  |                                                  |        +**Gnetum_montanum
+|   |  |                                               +**| (0)
+|   |  |                                               |  |              +**Acorus_americanus
+|   |  |                                               |  |         +----| (54)
+|   |  |                                               |  |         |    +**Dioscorea_villosa
+|   |  |                                               |  |     +---| (26)
+|   |  |                                               |  |     |   +**Rosmarinus_officinalis
+|   |  |                                               |  |  +**| (26)
+|   |  |                                               |  |  |  +**Medicago_truncatula
+|   |  |                                               |  +**| (0)
+|   |  |                                               |     +**Populus_trichocarpa
+|   |  |                                            +**| (0)
+|   |  |                                            |  +**Diospyros_malabarica
+|   |  |                                         +**| (0)
+|   |  |                                         |  +**Hibiscus_cannabinus
+|   |  |                                      +**| (0)
+|   |  |                                      |  +**Sphagnum_lescurii
+|   |  |                                   +**| (0)
+|   |  |                                   |  +**Amborella_trichopoda
+|   |  |                                +**| (0)
+|   |  |                                |  |  +**Cunninghamia_lanceolata
+|   |  |                                |  +**| (2)
+|   |  |                                |     +**Vitis_vinifera
+|   |  |                             +**| (0)
+|   |  |                             |  +**Nuphar_advena
+|   |  |                          +**| (0)
+|   |  |                          |  |  +**Tanacetum_parthenium
+|   |  |                          |  +**| (3)
+|   |  |                          |     +**Liriodendron_tulipifera
+|   |  |                       +**| (0)
+|   |  |                       |  +**Dendrolycopodium_obscurum
+|   |  |                    +**| (0)
+|   |  |                    |  +**Larrea_tridentata
+|   |  |                 +**| (0)
+|   |  |                 |  +**Carica_papaya
+|   |  |              +**| (0)
+|   |  |              |  +**Juniperus_scopulorum
+|   |  |           +**| (0)
+|   |  |           |  |     +**Sphaerocarpos_texanus
+|   |  |           |  |  +**| (0)
+|   |  |           |  |  |  +**Coleochaete_irregularis
+|   |  |           |  +**| (0)
+|   |  |           |     +**Marchantia_polymorpha
+|   |  |        +**| (0)
+|   |  |        |  |     +**Metzgeria_crassipilis
+|   |  |        |  |  +**| (1)
+|   |  |        |  |  |  +**Eschscholzia_californica
+|   |  |        |  +**| (0)
+|   |  |        |     +**Cedrus_libani
+|   |  |     +**| (0)
+|   |  |     |  +**Huperzia_squarrosa
+|   |  |  +**| (0)
+|   |  |  |  +**Sciadopitys_verticillata
+|   |  +**| (0)
+|   |     +**Ricciocarpos_natans
++---| (19)
+|   |           +**Anomodon_attenuatus
+|   |        +**| (8)
+|   |        |  +**Rhynchostegium_serrulatum
+|   |     +**| (11)
+|   |     |  |  +**Bryum_argenteum
+|   |     |  +**| (9)
+|   |     |     +**Hedwigia_ciliata
+|   |  +--| (70)
+|   |  |  +**Leucodon_brachypus
+|   +--| (8)
+|      |           +**Selaginella_moellendorffii_genome
+|      |     +-----| (89)
+|      |     |     +**Selaginella_moellendorffii_1kp
+|      |  +**| (30)
+|      |  |  +**Catharanthus_roseus
+|      +**| (21)
+|         |  +**Bazzania_trilobata
+|         +**| (52)
+|            +**Persea_americana
+|
++-----Yucca_filamentosa
+
+Tree in newick format:
+
+(Sabal_bermudana:0.0000023600,(((Saruma_henryi:0.0000023479,Taxus_baccata:0.0000023479)5:0.0000023479,((((((((((((((((((((Chlorokybus_atmophyticus:0.5476095192,Ceratodon_purpureus:0.2202620255)38:0.1915730378,Psilotum_nudum:0.0000021223)47:0.3944625209,(Arabidopsis_thaliana:0.0886563946,(((((Zea_mays:0.0000020847,Sorghum_bicolor:0.0000021045)63:0.0000021501,(Oryza_sativa:0.0000026154,Brachypodium_distachyon:0.0887945710)52:0.0885744454)38:0.1619794791,((Nothoceros_vincentianus:0.0000022136,Nothoceros_aenigmaticus:0.0000022615)60:0.0000022295,(Cylindrocystis_brebissonii:0.0000020477,Cylindrocystis_cushleckae:0.2852437077)51:0.2955962954)13:0.0795794010)1:0.0000022144,Ipomoea_purpurea:0.0000021178)5:0.0771900122,Gnetum_montanum:0.0000020852)1:0.0000022971)0:0.0000023001)1:0.0850194025,((((Acorus_americanus:0.0000028412,Dioscorea_villosa:0.0000027190)54:0.1249611974,Rosmarinus_officinalis:0.0000020300)26:0.0888761309,Medicago_truncatula:0.0000022235)26:0.0788978267,Populus_trichocarpa:0.0000021334)0:0.0813969917)0:0.0000021108,Diospyros_malabarica:0.0000024217)0:0.0000022398,Hibiscus_cannabinus:0.0000023479)0:0.0000023479,Sphagnum_lescurii:0.0000023479)0:0.0000020233,Amborella_trichopoda:0.0000023479)0:0.0000023479,(Cunninghamia_lanceolata:0.0000023479,Vitis_vinifera:0.0000023479)2:0.0000023479)0:0.0000023479,Nuphar_advena:0.0000023479)0:0.0000023479,(Tanacetum_parthenium:0.0000023479,Liriodendron_tulipifera:0.0000023479)3:0.0000023479)0:0.0000023479,Dendrolycopodium_obscurum:0.0000023479)0:0.0000023479,Larrea_tridentata:0.0000023479)0:0.0000023479,Carica_papaya:0.0000023479)0:0.0000023479,Juniperus_scopulorum:0.0000023479)0:0.0000023479,((Sphaerocarpos_texanus:0.0000023479,Coleochaete_irregularis:0.0000023479)0:0.0000023479,Marchantia_polymorpha:0.0000023479)0:0.0000023479)0:0.0000023479,((Metzgeria_crassipilis:0.0000023479,Eschscholzia_californica:0.0000023479)1:0.0000023479,Cedrus_libani:0.0000023479)0:0.0000023479)0:0.0000023479,Huperzia_squarrosa:0.0000023479)0:0.0000022969,Sciadopitys_verticillata:0.0000023479)0:0.0000023479,Ricciocarpos_natans:0.0000023479)0:0.0000023479)0:0.0000025162,((((Anomodon_attenuatus:0.0000023479,Rhynchostegium_serrulatum:0.0000023479)8:0.0000023255,(Bryum_argenteum:0.0000021521,Hedwigia_ciliata:0.0000023479)9:0.0000020553)11:0.0000023246,Leucodon_brachypus:0.0000023479)70:0.0870556113,(((Selaginella_moellendorffii_genome:0.0000020561,Selaginella_moellendorffii_1kp:0.0000020562)89:0.1382273928,Catharanthus_roseus:0.0000020557)30:0.0771881807,(Bazzania_trilobata:0.0000020066,Persea_americana:0.0000023058)52:0.0000022482)21:0.0000023286)8:0.0850185639)19:0.1098000063,Yucca_filamentosa:0.1541130235);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100bootstrap trees
+Log-likelihood of consensus tree: -142.895327
+Robinson-Foulds distance between ML tree and consensus tree: 60
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Sabal_bermudana
+|
+|                +--Saruma_henryi
+|             +--| (3)
+|             |  +--Cunninghamia_lanceolata
+|          +--| (1)
+|          |  |  +--Taxus_baccata
+|          |  +--| (6)
+|          |  |  +--Dendrolycopodium_obscurum
+|          |  |
+|          |  |  +--Ricciocarpos_natans
+|          |  +--| (7)
+|          |  |  +--Sphaerocarpos_texanus
+|          |  |
+|          |  |  +--Nuphar_advena
+|          |  +--| (3)
+|          |  |  +--Diospyros_malabarica
+|          |  |
+|          |  |  +--Hibiscus_cannabinus
+|          |  +--| (6)
+|          |  |  +--Vitis_vinifera
+|          |  |
+|          |  |  +--Metzgeria_crassipilis
+|          |  +--| (4)
+|          |  |  +--Carica_papaya
+|          |  |
+|          |  |  +--Sphagnum_lescurii
+|          |  +--| (5)
+|          |  |  +--Tanacetum_parthenium
+|          |  |
+|          |  |  +--Amborella_trichopoda
+|          |  +--| (4)
+|          |  |  +--Sciadopitys_verticillata
+|          |  |
+|          |  |  +--Marchantia_polymorpha
+|          |  +--| (6)
+|          |  |  +--Juniperus_scopulorum
+|          |  |
+|          |  |  +--Liriodendron_tulipifera
+|          |  +--| (4)
+|          |  |  +--Huperzia_squarrosa
+|          |  |
+|          |  |  +--Eschscholzia_californica
+|          |  +--| (6)
+|          |     +--Cedrus_libani
+|       +--| (6)
+|       |  |  +--Larrea_tridentata
+|       |  +--| (4)
+|       |     +--Coleochaete_irregularis
+|    +--| (1)
+|    |  |            +--Anomodon_attenuatus
+|    |  |        +---| (70)
+|    |  |        |   |     +--Bryum_argenteum
+|    |  |        |   |  +--| (15)
+|    |  |        |   |  |  +--Rhynchostegium_serrulatum
+|    |  |        |   +--| (9)
+|    |  |        |      |  +--Hedwigia_ciliata
+|    |  |        |      +--| (14)
+|    |  |        |         +--Leucodon_brachypus
+|    |  |     +--| (8)
+|    |  |     |  |           +--Selaginella_moellendorffii_genome
+|    |  |     |  |     +-----| (89)
+|    |  |     |  |     |     +--Selaginella_moellendorffii_1kp
+|    |  |     |  |  +--| (30)
+|    |  |     |  |  |  +--Catharanthus_roseus
+|    |  |     |  +--| (21)
+|    |  |     |     |  +--Bazzania_trilobata
+|    |  |     |     +--| (52)
+|    |  |     |        +--Persea_americana
+|    |  |  +--| (2)
+|    |  |  |  |        +--Acorus_americanus
+|    |  |  |  |   +----| (54)
+|    |  |  |  |   |    +--Dioscorea_villosa
+|    |  |  |  +---| (26)
+|    |  |  |      +--Rosmarinus_officinalis
+|    |  +--| (1)
+|    |     |     +---Arabidopsis_thaliana
+|    |     |  +--| (8)
+|    |     |  |  |  +--Gnetum_montanum
+|    |     |  |  +--| (20)
+|    |     |  |     +--Ipomoea_purpurea
+|    |     +--| (4)
+|    |     |  |               +--Zea_mays
+|    |     |  |            +--| (63)
+|    |     |  |            |  +--Sorghum_bicolor
+|    |     |  +------------| (38)
+|    |     |               |   +--Oryza_sativa
+|    |     |               +---| (52)
+|    |     |                   +---Brachypodium_distachyon
+|    |     |
+|    |     |  +--Medicago_truncatula
+|    |     +--| (29)
+|    |        +--Populus_trichocarpa
++----| (19)
+|    |                           +------------------------Chlorokybus_atmophyticus
+|    |                   +-------| (38)
+|    |                   |       +---------Ceratodon_purpureus
+|    |    +--------------| (47)
+|    |    |              +--Psilotum_nudum
+|    +----| (6)
+|         |       +--Nothoceros_vincentianus
+|         |    +--| (60)
+|         |    |  +--Nothoceros_aenigmaticus
+|         +----| (13)
+|              |            +--Cylindrocystis_brebissonii
+|              +------------| (51)
+|                           +------------Cylindrocystis_cushleckae
+|
++------Yucca_filamentosa
+
+
+Consensus tree in newick format: 
+
+(Sabal_bermudana:0.0000025259,(((((Saruma_henryi:0.0000025259,Cunninghamia_lanceolata:0.0000025259)3:0.0000025259,(Taxus_baccata:0.0000025259,Dendrolycopodium_obscurum:0.0000025259)6:0.0000025259,(Ricciocarpos_natans:0.0000025259,Sphaerocarpos_texanus:0.0000025259)7:0.0000025259,(Nuphar_advena:0.0000025259,Diospyros_malabarica:0.0000025259)3:0.0000025259,(Hibiscus_cannabinus:0.0000025259,Vitis_vinifera:0.0000025259)6:0.0000025259,(Metzgeria_crassipilis:0.0000025259,Carica_papaya:0.0000025259)4:0.0000025259,(Sphagnum_lescurii:0.0000025259,Tanacetum_parthenium:0.0000025259)5:0.0000025259,(Amborella_trichopoda:0.0000025259,Sciadopitys_verticillata:0.0000025259)4:0.0000025259,(Marchantia_polymorpha:0.0000025259,Juniperus_scopulorum:0.0000025259)6:0.0000025259,(Liriodendron_tulipifera:0.0000025259,Huperzia_squarrosa:0.0000025259)4:0.0000025259,(Eschscholzia_californica:0.0000025259,Cedrus_libani:0.0000025259)6:0.0000025259)1:0.0000025259,(Larrea_tridentata:0.0000025259,Coleochaete_irregularis:0.0000025259)4:0.0000025259)6:0.0000025259,((((Anomodon_attenuatus:0.0000025259,((Bryum_argenteum:0.0000025259,Rhynchostegium_serrulatum:0.0000025259)15:0.0000025259,(Hedwigia_ciliata:0.0000025259,Leucodon_brachypus:0.0000025259)14:0.0000025259)9:0.0000025259)70:0.0870680021,(((Selaginella_moellendorffii_genome:0.0000025259,Selaginella_moellendorffii_1kp:0.0000025259)89:0.1382165841,Catharanthus_roseus:0.0000025259)30:0.0771941259,(Bazzania_trilobata:0.0000025259,Persea_americana:0.0000025259)52:0.0000025259)21:0.0000025259)8:0.0000025259,((Acorus_americanus:0.0000025259,Dioscorea_villosa:0.0000025259)54:0.1249830539,Rosmarinus_officinalis:0.0000025259)26:0.0886689925)2:0.0850282585,((Arabidopsis_thaliana:0.0886717276,(Gnetum_montanum:0.0000025259,Ipomoea_purpurea:0.0772084368)20:0.0000025259)8:0.0000025259,((Zea_mays:0.0000025259,Sorghum_bicolor:0.0000025259)63:0.0000025259,(Oryza_sativa:0.0000025259,Brachypodium_distachyon:0.0888029068)52:0.0885692749)38:0.2931522873)4:0.0850352669,(Medicago_truncatula:0.0789272836,Populus_trichocarpa:0.0000025259)29:0.0814160946)1:0.0000025259)1:0.0000025259,(((Chlorokybus_atmophyticus:0.5475236981,Ceratodon_purpureus:0.2203508523)38:0.1913202669,Psilotum_nudum:0.0000025259)47:0.3357465763,((Nothoceros_vincentianus:0.0000025259,Nothoceros_aenigmaticus:0.0000025259)60:0.0000025259,(Cylindrocystis_brebissonii:0.0000025259,Cylindrocystis_cushleckae:0.2852324338)51:0.2955421220)13:0.1147632980)6:0.1110590271)19:0.1098110579,Yucca_filamentosa:0.1541079434);
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug 22 12:46:28 2019
+Total CPU time used: 7.437826 seconds (0h:0m:7s)
+Total wall-clock time used: 7.498612 seconds (0h:0m:7s)
+

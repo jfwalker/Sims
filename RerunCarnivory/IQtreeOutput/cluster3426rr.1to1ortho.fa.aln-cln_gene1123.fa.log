@@ -1,0 +1,105 @@
+IQ-TREE multicore version 1.6.11 for Mac OS X 64-bit built Jul 12 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    slpc437 (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -s cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa -nt 4 -m GTR+G -alrt 1000
+Seed:    668267 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 25 10:30:10 2019
+Kernel:  AVX+FMA - 4 threads (6 CPU cores detected)
+
+Reading alignment file cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 13 sequences with 1294 columns, 641 distinct patterns
+508 parsimony-informative, 148 singleton sites, 638 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  DrolusSFB    0.00%    passed     49.83%
+   2  Dino         1.85%    failed      0.00%
+   3  MJM3360     33.15%    failed      0.00%
+   4  DrobinSFB   34.16%    passed     20.68%
+   5  Neam         0.23%    passed     92.58%
+   6  RuprSFB      1.55%    failed      1.29%
+   7  Retr         0.31%    failed      0.00%
+   8  Beta         0.00%    failed      0.07%
+   9  Spol         0.70%    passed     17.47%
+  10  MJM1652      2.63%    failed      0.00%
+  11  NepSFB       0.23%    passed     95.16%
+  12  WPYJ        26.04%    failed      1.52%
+  13  MJM2940      0.00%    passed     15.42%
+****  TOTAL        7.76%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9202.330
+2. Current log-likelihood: -8898.521
+3. Current log-likelihood: -8894.696
+Optimal log-likelihood: -8894.635
+Rate parameters:  A-C: 1.53189  A-G: 3.20093  A-T: 0.84071  C-G: 1.52977  C-T: 3.82374  G-T: 1.00000
+Base frequencies:  A: 0.201  C: 0.261  G: 0.229  T: 0.309
+Gamma shape alpha: 0.420
+Parameters optimization took 3 rounds (0.035 sec)
+Computing ML distances based on estimated model parameters... 0.001 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -8895.408
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.095 second
+Computing log-likelihood of 98 initial trees ... 0.432 seconds
+Current best score: -8894.635
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8891.459
+Iteration 10 / LogL: -8891.518 / Time: 0h:0m:0s
+Iteration 20 / LogL: -8892.248 / Time: 0h:0m:1s
+Finish initializing candidate tree set (1)
+Current best tree score: -8891.459 / CPU time: 1.120
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -8891.459
+Iteration 30 / LogL: -8891.670 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -8891.553 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 50 / LogL: -8891.469 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 60 / LogL: -8892.066 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -8892.168 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 80 / LogL: -8891.483 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 90 / LogL: -8891.483 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 100 / LogL: -8892.045 / Time: 0h:0m:4s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8891.459
+Optimal log-likelihood: -8891.457
+Rate parameters:  A-C: 1.52372  A-G: 3.21019  A-T: 0.80967  C-G: 1.51545  C-T: 3.84129  G-T: 1.00000
+Base frequencies:  A: 0.201  C: 0.261  G: 0.229  T: 0.309
+Gamma shape alpha: 0.421
+Parameters optimization took 1 rounds (0.005 sec)
+BEST SCORE FOUND : -8891.457
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.079 sec.
+Total tree length: 1.999
+
+Total number of iterations: 102
+CPU time used for tree search: 4.916 sec (0h:0m:4s)
+Wall-clock time used for tree search: 4.248 sec (0h:0m:4s)
+Total CPU time used: 5.277 sec (0h:0m:5s)
+Total wall-clock time used: 4.387 sec (0h:0m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa.iqtree
+  Maximum-likelihood tree:       cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa.treefile
+  Likelihood distances:          cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa.mldist
+  Screen log file:               cluster3426rr.1to1ortho.fa.aln-cln_gene1123.fa.log
+
+Date and Time: Mon Nov 25 10:30:15 2019

@@ -1,0 +1,3 @@
+(((taxon_1,(taxon_3,taxon_2)),(taxon_4,taxon_5)),taxon_6);
+(((taxon_1,(taxon_4,taxon_5)),(taxon_3,taxon_2)),taxon_6);
+((((taxon1_o1:0.01,(taxon2_o1:0.01,taxon3_o1:0.01):0.05):0.1,(taxon4_o1:0.01,taxon5_o1:0.01):0.05):0.1,taxon6_o1:0.01):0.1,(((taxon1_o2:0.05,(taxon4_o2:0.05,taxon5_o2:0.05):0.1):0.1,(taxon3_o2:0.05,taxon2_o2:0.05):0.1):0.05,taxon6_o2:0.05):0.6);

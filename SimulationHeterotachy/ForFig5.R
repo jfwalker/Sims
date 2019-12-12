@@ -1,0 +1,7 @@
+library(vioplot)
+par(mfrow=c(1,1))
+setwd("/Users/joseph.walker/Desktop/OutlierFinal/SimulationHeterotachy/")
+a = read.csv("HeterotachyRepsGWLL.txt",header=FALSE)
+b = read.csv("HeterotachyRepsSSLL.txt",header=FALSE)
+vioplot(a[,1],a[,2],a[,3],a[,4],a[,5],main="GWLL Two-Topology Test",ylab= "ΔGWLL",xlab="Gene")
+vioplot(b[,1],b[,2],b[,3],b[,4],b[,5],ylim=c(-0.15,0.1),main="Avg. SSLL Two-Topology Test",ylab= "ΔSSLL",xlab="Gene")

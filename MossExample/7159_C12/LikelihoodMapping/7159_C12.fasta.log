@@ -1,0 +1,155 @@
+IQ-TREE multicore version 1.6.11 for Mac OS X 64-bit built Jul 12 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    slpc437 (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -m GTR+G -s 7159_C12.fasta -lmap ALL -n 0
+Seed:    951420 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 22 10:09:02 2019
+Kernel:  AVX+FMA - 1 threads (6 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 6 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 7159_C12.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 55 sequences with 12 columns, 12 distinct patterns
+9 parsimony-informative, 2 singleton sites, 1 constant sites
+                                   Gap/Ambiguity  Composition  p-value
+   1  Sabal_bermudana                      0.00%    passed     71.07%
+   2  Saruma_henryi                        0.00%    passed     99.46%
+   3  Anomodon_attenuatus                  0.00%    passed     89.37%
+   4  Chlorokybus_atmophyticus             0.00%    passed     63.25%
+   5  Larrea_tridentata                    0.00%    passed     99.46%
+   6  Acorus_americanus                    0.00%    passed     53.66%
+   7  Taxus_baccata                        0.00%    passed     99.46%
+   8  Ricciocarpos_natans                  0.00%    passed     99.46%
+   9  Bryum_argenteum                      0.00%    passed     89.37%
+  10  Selaginella_moellendorffii_genome    0.00%    passed     18.49%
+  11  Dendrolycopodium_obscurum            0.00%    passed     99.46%
+  12  Sphaerocarpos_texanus                0.00%    passed     99.46%
+  13  Psilotum_nudum                       0.00%    passed     92.90%
+  14  Nuphar_advena                        0.00%    passed     99.46%
+  15  Cunninghamia_lanceolata              0.00%    passed     99.46%
+  16  Arabidopsis_thaliana                 0.00%    passed     92.23%
+  17  Hibiscus_cannabinus                  0.00%    passed     99.46%
+  18  Ceratodon_purpureus                  0.00%    passed     47.19%
+  19  Metzgeria_crassipilis                0.00%    passed     99.46%
+  20  Zea_mays                             0.00%    passed     83.30%
+  21  Vitis_vinifera                       0.00%    passed     99.46%
+  22  Sphagnum_lescurii                    0.00%    passed     99.46%
+  23  Sorghum_bicolor                      0.00%    passed     83.30%
+  24  Carica_papaya                        0.00%    passed     99.46%
+  25  Amborella_trichopoda                 0.00%    passed     99.46%
+  26  Yucca_filamentosa                    0.00%    passed     59.04%
+  27  Hedwigia_ciliata                     0.00%    passed     89.37%
+  28  Sciadopitys_verticillata             0.00%    passed     99.46%
+  29  Tanacetum_parthenium                 0.00%    passed     99.46%
+  30  Dioscorea_villosa                    0.00%    passed     53.66%
+  31  Oryza_sativa                         0.00%    passed     92.23%
+  32  Marchantia_polymorpha                0.00%    passed     99.46%
+  33  Medicago_truncatula                  0.00%    passed     74.20%
+  34  Juniperus_scopulorum                 0.00%    passed     99.46%
+  35  Gnetum_montanum                      0.00%    passed     83.30%
+  36  Rhynchostegium_serrulatum            0.00%    passed     89.37%
+  37  Nothoceros_vincentianus              0.00%    passed     89.79%
+  38  Liriodendron_tulipifera              0.00%    passed     99.46%
+  39  Eschscholzia_californica             0.00%    passed     99.46%
+  40  Rosmarinus_officinalis               0.00%    passed     92.23%
+  41  Cylindrocystis_brebissonii           0.00%    passed     54.64%
+  42  Nothoceros_aenigmaticus              0.00%    passed     89.79%
+  43  Bazzania_trilobata                   0.00%    passed     83.30%
+  44  Diospyros_malabarica                 0.00%    passed     99.46%
+  45  Cedrus_libani                        0.00%    passed     99.46%
+  46  Huperzia_squarrosa                   0.00%    passed     99.46%
+  47  Cylindrocystis_cushleckae            0.00%    passed     54.64%
+  48  Catharanthus_roseus                  0.00%    passed     83.75%
+  49  Persea_americana                     0.00%    passed     83.30%
+  50  Ipomoea_purpurea                     0.00%    passed     83.75%
+  51  Selaginella_moellendorffii_1kp       0.00%    passed     18.49%
+  52  Brachypodium_distachyon              0.00%    passed     74.20%
+  53  Leucodon_brachypus                   0.00%    passed     89.37%
+  54  Populus_trichocarpa                  8.33%    passed     65.33%
+  55  Coleochaete_irregularis              0.00%    passed     99.46%
+****  TOTAL                                0.15%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Larrea_tridentata is identical to Saruma_henryi but kept for subsequent analysis
+NOTE: Bryum_argenteum is identical to Anomodon_attenuatus but kept for subsequent analysis
+NOTE: Dioscorea_villosa is identical to Acorus_americanus but kept for subsequent analysis
+NOTE: Selaginella_moellendorffii_1kp is identical to Selaginella_moellendorffii_genome but kept for subsequent analysis
+NOTE: Sorghum_bicolor is identical to Zea_mays but kept for subsequent analysis
+NOTE: Nothoceros_aenigmaticus is identical to Nothoceros_vincentianus but kept for subsequent analysis
+NOTE: Persea_americana is identical to Bazzania_trilobata but kept for subsequent analysis
+NOTE: 25 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Taxus_baccata (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Ricciocarpos_natans (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Dendrolycopodium_obscurum (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Sphaerocarpos_texanus (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Nuphar_advena (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Cunninghamia_lanceolata (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Hibiscus_cannabinus (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Metzgeria_crassipilis (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Vitis_vinifera (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Sphagnum_lescurii (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Carica_papaya (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Amborella_trichopoda (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Sciadopitys_verticillata (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Tanacetum_parthenium (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Marchantia_polymorpha (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Juniperus_scopulorum (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Liriodendron_tulipifera (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Eschscholzia_californica (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Diospyros_malabarica (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Cedrus_libani (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Huperzia_squarrosa (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Coleochaete_irregularis (identical to Saruma_henryi) is ignored but added at the end
+NOTE: Hedwigia_ciliata (identical to Anomodon_attenuatus) is ignored but added at the end
+NOTE: Rhynchostegium_serrulatum (identical to Anomodon_attenuatus) is ignored but added at the end
+NOTE: Leucodon_brachypus (identical to Anomodon_attenuatus) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to 7159_C12.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -183.429
+2. Current log-likelihood: -147.442
+3. Current log-likelihood: -145.101
+4. Current log-likelihood: -145.088
+Optimal log-likelihood: -145.088
+Rate parameters:  A-C: 29.30472  A-G: 7.25272  A-T: 13.40510  C-G: 4.38434  C-T: 7.10134  G-T: 1.00000
+Base frequencies:  A: 0.112  C: 0.133  G: 0.436  T: 0.319
+Gamma shape alpha: 998.400
+Parameters optimization took 4 rounds (0.021 sec)
+
+Performing likelihood mapping with all quartets...
+Computing 27405 quartet likelihoods (one dot represents 100 quartets).
+
+.......... .......... .......... .......... ..........  : 5000
+.......... .......... .......... .......... ..........  : 10000
+.......... .......... .......... .......... ..........  : 15000
+.......... .......... .......... .......... ..........  : 20000
+.......... .......... .......... .......... ..........  : 25000
+.......... .......... ..... : 27405
+
+likelihood mapping plot (SVG) written to 7159_C12.fasta.lmap.svg
+likelihood mapping plot (EPS) written to 7159_C12.fasta.lmap.eps
+Likelihood mapping needed 8.747 seconds
+
+BEST SCORE FOUND : -145.088
+Total tree length: 3.813
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 8.702 sec (0h:0m:8s)
+Total wall-clock time used: 8.777 sec (0h:0m:8s)
+
+Analysis results written to: 
+  IQ-TREE report:                7159_C12.fasta.iqtree
+  Maximum-likelihood tree:       7159_C12.fasta.treefile
+  Likelihood mapping plot (SVG): 7159_C12.fasta.lmap.svg
+  Likelihood mapping plot (EPS): 7159_C12.fasta.lmap.eps
+  Screen log file:               7159_C12.fasta.log
+
+Date and Time: Thu Aug 22 10:09:11 2019

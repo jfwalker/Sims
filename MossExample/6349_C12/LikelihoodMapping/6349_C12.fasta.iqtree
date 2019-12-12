@@ -1,0 +1,785 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: 6349_C12.fasta
+Type of analysis: tree reconstruction
+Random seed number: 884206
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 101 sequences with 1048 nucleotide sites
+Number of constant sites: 96 (= 9.16031% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 96 (= 9.16031% of all sites)
+Number of parsimony informative sites: 872
+Number of distinct site patterns: 1030
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.9043
+  A-G: 1.0614
+  A-T: 0.9952
+  C-G: 0.5104
+  C-T: 2.9660
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2694
+  pi(C) = 0.212
+  pi(G) = 0.3754
+  pi(T) = 0.1431
+
+Rate matrix Q:
+
+  A    -1.076      0.46     0.454    0.1622
+  C    0.5846    -1.286    0.2183    0.4835
+  G    0.3258    0.1233   -0.6121     0.163
+  T    0.3055    0.7165    0.4277     -1.45
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.9878
+
+ Category  Relative_rate  Proportion
+  1         0.1345         0.25
+  2         0.4731         0.25
+  3         0.998          0.25
+  4         2.394          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+LIKELIHOOD MAPPING ANALYSIS
+---------------------------
+
+Number of quartets: 4082925 (all unique quartets)
+
+Quartet trees are based on the selected model of substitution.
+
+Sequences are not grouped in clusters. Using sequences:
+  1. Sabal_bermudana
+  2. Coleochaete_scutata
+  3. Saruma_henryi
+  4. Anomodon_attenuatus
+  5. Pseudolycopodiella_caroliniana
+  6. Penium_margaritaceum
+  7. Chlorokybus_atmophyticus
+  8. Angiopteris_evecta
+  9. Podophyllum_peltatum
+  10. Larrea_tridentata
+  11. Ephedra_sinica
+  12. Acorus_americanus
+  13. Nephroselmis_pyriformis
+  14. Prumnopitys_andina
+  15. Pteridium_aquilinum
+  16. Ginkgo_biloba
+  17. Boehmeria_nivea
+  18. Kochia_scoparia
+  19. Taxus_baccata
+  20. Smilax_bona-nox
+  21. Ricciocarpos_natans
+  22. Houttuynia_cordata
+  23. Bryum_argenteum
+  24. Selaginella_moellendorffii_genome
+  25. Dendrolycopodium_obscurum
+  26. Sphaerocarpos_texanus
+  27. Psilotum_nudum
+  28. Nuphar_advena
+  29. Cunninghamia_lanceolata
+  30. Arabidopsis_thaliana
+  31. Hibiscus_cannabinus
+  32. Chaetosphaeridium_globosum
+  33. Ophioglossum_petiolatum
+  34. Roya_obtusa
+  35. Ceratodon_purpureus
+  36. Metzgeria_crassipilis
+  37. Zea_mays
+  38. Inula_helenium
+  39. Vitis_vinifera
+  40. Thuidium_delicatulum
+  41. Sphagnum_lescurii
+  42. Sorghum_bicolor
+  43. Carica_papaya
+  44. Amborella_trichopoda
+  45. Yucca_filamentosa
+  46. Cycas_rumphii
+  47. Hedwigia_ciliata
+  48. Monomastix_opisthostigma
+  49. Sciadopitys_verticillata
+  50. Tanacetum_parthenium
+  51. Dioscorea_villosa
+  52. Alsophila_spinulosa
+  53. Oryza_sativa
+  54. Marchantia_polymorpha
+  55. Medicago_truncatula
+  56. Juniperus_scopulorum
+  57. Mougeotia_sp
+  58. Gnetum_montanum
+  59. Rhynchostegium_serrulatum
+  60. Nothoceros_vincentianus
+  61. Cycas_micholitzii
+  62. Liriodendron_tulipifera
+  63. Eschscholzia_californica
+  64. Spirotaenia_minuta
+  65. Rosmarinus_officinalis
+  66. Allamanda_cathartica
+  67. Zamia_vazquezii
+  68. Mesostigma_viride
+  69. Cylindrocystis_brebissonii
+  70. Cosmarium_ochthodes
+  71. Netrium_digitus
+  72. Spirogyra_sp
+  73. Nothoceros_aenigmaticus
+  74. Entransia_fimbriata
+  75. Bazzania_trilobata
+  76. Physcomitrella_patens
+  77. Chara_vulgaris
+  78. Diospyros_malabarica
+  79. Cedrus_libani
+  80. Klebsormidium_subtile
+  81. Huperzia_squarrosa
+  82. Marchantia_emarginata
+  83. Sarcandra_glabra
+  84. Cylindrocystis_cushleckae
+  85. Equisetum_diffusum
+  86. Catharanthus_roseus
+  87. Persea_americana
+  88. Aquilegia_formosa
+  89. Ipomoea_purpurea
+  90. Selaginella_moellendorffii_1kp
+  91. Brachypodium_distachyon
+  92. Leucodon_brachypus
+  93. Mesotaenium_endlicherianum
+  94. Colchicum_autumnale
+  95. Rosulabryum_cf_capillare
+  96. Populus_trichocarpa
+  97. Coleochaete_irregularis
+  98. Kadsura_heteroclita
+  99. Polytrichum_commune
+  100. Pyramimonas_parkeae
+  101. Pinus_taeda
+
+Ordered as in user-given cluster file, numbers according to alignment order.
+All other sequences have been ignored.
+
+
+
+LIKELIHOOD MAPPING STATISTICS
+-----------------------------
+
+           (a,b)-(c,d)                              (a,b)-(c,d)      
+                /\                                      /\           
+               /  \                                    /  \          
+              /    \                                  /  1 \         
+             /  a1  \                                / \  / \        
+            /\      /\                              /   \/   \       
+           /  \    /  \                            /    /\    \      
+          /    \  /    \                          / 6  /  \  4 \     
+         /      \/      \                        /\   /  7 \   /\    
+        /        |       \                      /  \ /______\ /  \   
+       /   a3    |    a2  \                    / 3  |    5   |  2 \  
+      /__________|_________\                  /_____|________|_____\ 
+(a,d)-(b,c)            (a,c)-(b,d)      (a,d)-(b,c)            (a,c)-(b,d) 
+
+Division of the likelihood mapping plots into 3 or 7 areas.
+On the left the areas show support for one of the different groupings
+like (a,b|c,d).
+On the right the right quartets falling into the areas 1, 2 and 3 are
+informative. Those in the rectangles 4, 5 and 6 are partly informative
+and those in the center (7) are not informative.
+
+Sequences a,b,c,d are drawn from all included sequences.
+
+Note, that the corners only make a difference if the sequences are
+clustered in groups. Furthermore, while sequences should occur about
+equally often in unclustered mappings, in clustered mappings their
+occurrence rates depend on the group sizes the quartets are drawn from.
+
+For more information about likelihood-mapping refer to
+ - Schmidt and von Haeseler (2009) The Phylogenetic Handbook, 2nd Ed.
+   (by Lemey et al., Eds.), 181-209, Cambridge Univ. Press, UK.
+   http://www.thephylogenetichandbook.org
+ - Schmidt and von Haeseler (2003) Current Protocols in Bioinformatics
+   (by Baxevanis et al., Eds.), Unit 6, Wiley&Sons, New York.
+   http://dx.doi.org/10.1002/0471250953.bi0606s17
+and/or
+ - Strimmer and von Haeseler (1997) PNAS 94:6815-6819
+   http://www.ncbi.nlm.nih.gov/pubmed/9192648
+
+
+Quartet support of regions a1, a2, a3 (mainly for clustered analysis):
+
+     #quartets    a1 (% a1)        a2 (% a2)        a3 (% a3)    name
+-----------------------------------------------------------------------------
+1   161700   53202   (32.90 ) 57095   (35.31 ) 51403   (31.79 )  Sabal_bermudana
+2   161700   47750   (29.53 ) 54587   (33.76 ) 59363   (36.71 )  Coleochaete_scutata
+3   161700   56421   (34.89 ) 54776   (33.88 ) 50503   (31.23 )  Saruma_henryi
+4   161700   48069   (29.73 ) 55269   (34.18 ) 58362   (36.09 )  Anomodon_attenuatus
+5   161700   50960   (31.52 ) 55166   (34.12 ) 55574   (34.37 )  Pseudolycopodiella_caroliniana
+6   161700   51479   (31.84 ) 52467   (32.45 ) 57754   (35.72 )  Penium_margaritaceum
+7   161700   46044   (28.47 ) 53913   (33.34 ) 61743   (38.18 )  Chlorokybus_atmophyticus
+8   161700   51600   (31.91 ) 55237   (34.16 ) 54863   (33.93 )  Angiopteris_evecta
+9   161700   56769   (35.11 ) 52026   (32.17 ) 52905   (32.72 )  Podophyllum_peltatum
+10  161700   55483   (34.31 ) 52673   (32.57 ) 53544   (33.11 )  Larrea_tridentata
+11  161700   53577   (33.13 ) 53019   (32.79 ) 55104   (34.08 )  Ephedra_sinica
+12  161700   54775   (33.87 ) 54761   (33.87 ) 52164   (32.26 )  Acorus_americanus
+13  161700   45588   (28.19 ) 57705   (35.69 ) 58407   (36.12 )  Nephroselmis_pyriformis
+14  161700   55617   (34.40 ) 52511   (32.47 ) 53572   (33.13 )  Prumnopitys_andina
+15  161700   53779   (33.26 ) 55015   (34.02 ) 52906   (32.72 )  Pteridium_aquilinum
+16  161700   53519   (33.10 ) 53951   (33.36 ) 54230   (33.54 )  Ginkgo_biloba
+17  161700   54919   (33.96 ) 53719   (33.22 ) 53062   (32.82 )  Boehmeria_nivea
+18  161700   55726   (34.46 ) 53165   (32.88 ) 52809   (32.66 )  Kochia_scoparia
+19  161700   54832   (33.91 ) 53229   (32.92 ) 53639   (33.17 )  Taxus_baccata
+20  161700   56792   (35.12 ) 53181   (32.89 ) 51727   (31.99 )  Smilax_bona-nox
+21  161700   50975   (31.52 ) 56265   (34.80 ) 54460   (33.68 )  Ricciocarpos_natans
+22  161700   55698   (34.45 ) 52814   (32.66 ) 53188   (32.89 )  Houttuynia_cordata
+23  161700   50151   (31.01 ) 55832   (34.53 ) 55717   (34.46 )  Bryum_argenteum
+24  161700   51258   (31.70 ) 54698   (33.83 ) 55744   (34.47 )  Selaginella_moellendorffii_genome
+25  161700   53061   (32.81 ) 54568   (33.75 ) 54071   (33.44 )  Dendrolycopodium_obscurum
+26  161700   52038   (32.18 ) 55565   (34.36 ) 54097   (33.46 )  Sphaerocarpos_texanus
+27  161700   54127   (33.47 ) 53575   (33.13 ) 53998   (33.39 )  Psilotum_nudum
+28  161700   55126   (34.09 ) 53207   (32.90 ) 53367   (33.00 )  Nuphar_advena
+29  161700   55081   (34.06 ) 53131   (32.86 ) 53488   (33.08 )  Cunninghamia_lanceolata
+30  161700   54848   (33.92 ) 52534   (32.49 ) 54318   (33.59 )  Arabidopsis_thaliana
+31  161700   54441   (33.67 ) 52868   (32.70 ) 54391   (33.64 )  Hibiscus_cannabinus
+32  161700   49140   (30.39 ) 58643   (36.27 ) 53917   (33.34 )  Chaetosphaeridium_globosum
+33  161700   52339   (32.37 ) 54474   (33.69 ) 54887   (33.94 )  Ophioglossum_petiolatum
+34  161700   47991   (29.68 ) 59545   (36.82 ) 54164   (33.50 )  Roya_obtusa
+35  161700   52200   (32.28 ) 54629   (33.78 ) 54871   (33.93 )  Ceratodon_purpureus
+36  161700   52176   (32.27 ) 55135   (34.10 ) 54389   (33.64 )  Metzgeria_crassipilis
+37  161700   54550   (33.74 ) 52803   (32.65 ) 54347   (33.61 )  Zea_mays
+38  161700   54789   (33.88 ) 52813   (32.66 ) 54098   (33.46 )  Inula_helenium
+39  161700   55943   (34.60 ) 51461   (31.82 ) 54296   (33.58 )  Vitis_vinifera
+40  161700   51720   (31.99 ) 54898   (33.95 ) 55082   (34.06 )  Thuidium_delicatulum
+41  161700   51726   (31.99 ) 55328   (34.22 ) 54646   (33.79 )  Sphagnum_lescurii
+42  161700   54796   (33.89 ) 52103   (32.22 ) 54801   (33.89 )  Sorghum_bicolor
+43  161700   54183   (33.51 ) 53001   (32.78 ) 54516   (33.71 )  Carica_papaya
+44  161700   53882   (33.32 ) 53224   (32.92 ) 54594   (33.76 )  Amborella_trichopoda
+45  161700   54291   (33.58 ) 53208   (32.91 ) 54201   (33.52 )  Yucca_filamentosa
+46  161700   54390   (33.64 ) 53668   (33.19 ) 53642   (33.17 )  Cycas_rumphii
+47  161700   51818   (32.05 ) 55764   (34.49 ) 54118   (33.47 )  Hedwigia_ciliata
+48  161700   51040   (31.56 ) 56729   (35.08 ) 53931   (33.35 )  Monomastix_opisthostigma
+49  161700   53558   (33.12 ) 53519   (33.10 ) 54623   (33.78 )  Sciadopitys_verticillata
+50  161700   52498   (32.47 ) 55872   (34.55 ) 53330   (32.98 )  Tanacetum_parthenium
+51  161700   53657   (33.18 ) 53231   (32.92 ) 54812   (33.90 )  Dioscorea_villosa
+52  161700   52564   (32.51 ) 55881   (34.56 ) 53255   (32.93 )  Alsophila_spinulosa
+53  161700   53267   (32.94 ) 54092   (33.45 ) 54341   (33.61 )  Oryza_sativa
+54  161700   53399   (33.02 ) 55070   (34.06 ) 53231   (32.92 )  Marchantia_polymorpha
+55  161700   55095   (34.07 ) 52416   (32.42 ) 54189   (33.51 )  Medicago_truncatula
+56  161700   53664   (33.19 ) 52681   (32.58 ) 55355   (34.23 )  Juniperus_scopulorum
+57  161700   53981   (33.38 ) 52709   (32.60 ) 55010   (34.02 )  Mougeotia_sp
+58  161700   53372   (33.01 ) 53218   (32.91 ) 55110   (34.08 )  Gnetum_montanum
+59  161700   53754   (33.24 ) 54554   (33.74 ) 53392   (33.02 )  Rhynchostegium_serrulatum
+60  161700   53925   (33.35 ) 53582   (33.14 ) 54193   (33.51 )  Nothoceros_vincentianus
+61  161700   53162   (32.88 ) 53789   (33.26 ) 54749   (33.86 )  Cycas_micholitzii
+62  161700   50818   (31.43 ) 56395   (34.88 ) 54487   (33.70 )  Liriodendron_tulipifera
+63  161700   51230   (31.68 ) 56363   (34.86 ) 54107   (33.46 )  Eschscholzia_californica
+64  161700   55666   (34.43 ) 52671   (32.57 ) 53363   (33.00 )  Spirotaenia_minuta
+65  161700   52107   (32.22 ) 55737   (34.47 ) 53856   (33.31 )  Rosmarinus_officinalis
+66  161700   51384   (31.78 ) 56446   (34.91 ) 53870   (33.31 )  Allamanda_cathartica
+67  161700   52035   (32.18 ) 55535   (34.34 ) 54130   (33.48 )  Zamia_vazquezii
+68  161700   57474   (35.54 ) 51244   (31.69 ) 52982   (32.77 )  Mesostigma_viride
+69  161700   56678   (35.05 ) 49024   (30.32 ) 55998   (34.63 )  Cylindrocystis_brebissonii
+70  161700   58581   (36.23 ) 46044   (28.47 ) 57075   (35.30 )  Cosmarium_ochthodes
+71  161700   54325   (33.60 ) 52205   (32.29 ) 55170   (34.12 )  Netrium_digitus
+72  161700   58451   (36.15 ) 49385   (30.54 ) 53864   (33.31 )  Spirogyra_sp
+73  161700   54516   (33.71 ) 52290   (32.34 ) 54894   (33.95 )  Nothoceros_aenigmaticus
+74  161700   60311   (37.30 ) 47600   (29.44 ) 53789   (33.26 )  Entransia_fimbriata
+75  161700   51827   (32.05 ) 54319   (33.59 ) 55554   (34.36 )  Bazzania_trilobata
+76  161700   53383   (33.01 ) 55307   (34.20 ) 53010   (32.78 )  Physcomitrella_patens
+77  161700   58113   (35.94 ) 50245   (31.07 ) 53342   (32.99 )  Chara_vulgaris
+78  161700   49374   (30.53 ) 57318   (35.45 ) 55008   (34.02 )  Diospyros_malabarica
+79  161700   50002   (30.92 ) 57757   (35.72 ) 53941   (33.36 )  Cedrus_libani
+80  161700   59405   (36.74 ) 48824   (30.19 ) 53471   (33.07 )  Klebsormidium_subtile
+81  161700   50194   (31.04 ) 53980   (33.38 ) 57526   (35.58 )  Huperzia_squarrosa
+82  161700   53691   (33.20 ) 52645   (32.56 ) 55364   (34.24 )  Marchantia_emarginata
+83  161700   48706   (30.12 ) 56765   (35.11 ) 56229   (34.77 )  Sarcandra_glabra
+84  161700   57750   (35.71 ) 51722   (31.99 ) 52228   (32.30 )  Cylindrocystis_cushleckae
+85  161700   49994   (30.92 ) 54111   (33.46 ) 57595   (35.62 )  Equisetum_diffusum
+86  161700   48361   (29.91 ) 56396   (34.88 ) 56943   (35.22 )  Catharanthus_roseus
+87  161700   49131   (30.38 ) 55243   (34.16 ) 57326   (35.45 )  Persea_americana
+88  161700   48154   (29.78 ) 55562   (34.36 ) 57984   (35.86 )  Aquilegia_formosa
+89  161700   50058   (30.96 ) 55502   (34.32 ) 56140   (34.72 )  Ipomoea_purpurea
+90  161700   55127   (34.09 ) 53238   (32.92 ) 53335   (32.98 )  Selaginella_moellendorffii_1kp
+91  161700   49220   (30.44 ) 56818   (35.14 ) 55662   (34.42 )  Brachypodium_distachyon
+92  161700   54998   (34.01 ) 55060   (34.05 ) 51642   (31.94 )  Leucodon_brachypus
+93  161700   55335   (34.22 ) 53960   (33.37 ) 52405   (32.41 )  Mesotaenium_endlicherianum
+94  161700   45092   (27.89 ) 57713   (35.69 ) 58895   (36.42 )  Colchicum_autumnale
+95  161700   54486   (33.70 ) 54790   (33.88 ) 52424   (32.42 )  Rosulabryum_cf_capillare
+96  161700   49917   (30.87 ) 55766   (34.49 ) 56017   (34.64 )  Populus_trichocarpa
+97  161700   50119   (31.00 ) 54229   (33.54 ) 57352   (35.47 )  Coleochaete_irregularis
+98  161700   47733   (29.52 ) 55779   (34.50 ) 58188   (35.99 )  Kadsura_heteroclita
+99  161700   53327   (32.98 ) 54652   (33.80 ) 53721   (33.22 )  Polytrichum_commune
+100 161700   59426   (36.75 ) 54890   (33.95 ) 47384   (29.30 )  Pyramimonas_parkeae
+101 161700   49262   (30.47 ) 56272   (34.80 ) 56166   (34.73 )  Pinus_taeda
+-----------------------------------------------------------------------------
+    4082925  1338084 (32.77 ) 1366591 (33.47 ) 1378250 (33.76 )  
+
+
+Quartet support of areas 1-7 (mainly for clustered analysis):
+
+                   resolved                                           partly                                             unresolved  name
+     #quartets     1 (% 1)          2 (% 2)          3 (% 3)          4 (% 4)          5 (% 5)          6 (% 6)          7 (% 7)
+------------------------------------------------------------------------------------------------------------------------------------------------
+1   161700   32882   (20.34 ) 34245   (21.18 ) 30705   (18.99 ) 2312    (1.43  ) 2568    (1.59  ) 1993    (1.23  ) 56995   (35.25 )  Sabal_bermudana
+2   161700   23500   (14.53 ) 28438   (17.59 ) 31991   (19.78 ) 3333    (2.06  ) 4215    (2.61  ) 3565    (2.20  ) 66658   (41.22 )  Coleochaete_scutata
+3   161700   41395   (25.60 ) 39010   (24.12 ) 35583   (22.01 ) 3980    (2.46  ) 3079    (1.90  ) 3521    (2.18  ) 35132   (21.73 )  Saruma_henryi
+4   161700   32071   (19.83 ) 39601   (24.49 ) 42606   (26.35 ) 2995    (1.85  ) 2965    (1.83  ) 2925    (1.81  ) 38537   (23.83 )  Anomodon_attenuatus
+5   161700   33139   (20.49 ) 37351   (23.10 ) 37697   (23.31 ) 3865    (2.39  ) 3915    (2.42  ) 3829    (2.37  ) 41904   (25.91 )  Pseudolycopodiella_caroliniana
+6   161700   7001    (4.33  ) 7902    (4.89  ) 10547   (6.52  ) 9264    (5.73  ) 9759    (6.04  ) 11424   (7.06  ) 105803  (65.43 )  Penium_margaritaceum
+7   161700   25611   (15.84 ) 32968   (20.39 ) 39533   (24.45 ) 3944    (2.44  ) 4347    (2.69  ) 4394    (2.72  ) 50903   (31.48 )  Chlorokybus_atmophyticus
+8   161700   34222   (21.16 ) 38347   (23.71 ) 38582   (23.86 ) 4865    (3.01  ) 4731    (2.93  ) 4701    (2.91  ) 36252   (22.42 )  Angiopteris_evecta
+9   161700   39977   (24.72 ) 36433   (22.53 ) 36818   (22.77 ) 3912    (2.42  ) 3812    (2.36  ) 4603    (2.85  ) 36145   (22.35 )  Podophyllum_peltatum
+10  161700   37756   (23.35 ) 34913   (21.59 ) 34616   (21.41 ) 3811    (2.36  ) 3611    (2.23  ) 3768    (2.33  ) 43225   (26.73 )  Larrea_tridentata
+11  161700   35646   (22.04 ) 35990   (22.26 ) 36855   (22.79 ) 3669    (2.27  ) 3565    (2.20  ) 4262    (2.64  ) 41713   (25.80 )  Ephedra_sinica
+12  161700   38642   (23.90 ) 38276   (23.67 ) 36556   (22.61 ) 4313    (2.67  ) 4225    (2.61  ) 4151    (2.57  ) 35537   (21.98 )  Acorus_americanus
+13  161700   26415   (16.34 ) 35834   (22.16 ) 37211   (23.01 ) 4220    (2.61  ) 5270    (3.26  ) 4220    (2.61  ) 48530   (30.01 )  Nephroselmis_pyriformis
+14  161700   37760   (23.35 ) 35184   (21.76 ) 35466   (21.93 ) 4091    (2.53  ) 3515    (2.17  ) 4286    (2.65  ) 41398   (25.60 )  Prumnopitys_andina
+15  161700   30231   (18.70 ) 33188   (20.52 ) 32273   (19.96 ) 3525    (2.18  ) 2906    (1.80  ) 3440    (2.13  ) 56137   (34.72 )  Pteridium_aquilinum
+16  161700   36976   (22.87 ) 38088   (23.55 ) 38440   (23.77 ) 3413    (2.11  ) 3589    (2.22  ) 3756    (2.32  ) 37438   (23.15 )  Ginkgo_biloba
+17  161700   40519   (25.06 ) 38820   (24.01 ) 38355   (23.72 ) 3925    (2.43  ) 4133    (2.56  ) 4049    (2.50  ) 31899   (19.73 )  Boehmeria_nivea
+18  161700   39433   (24.39 ) 36887   (22.81 ) 36770   (22.74 ) 3964    (2.45  ) 4069    (2.52  ) 4269    (2.64  ) 36308   (22.45 )  Kochia_scoparia
+19  161700   40668   (25.15 ) 39142   (24.21 ) 39314   (24.31 ) 3439    (2.13  ) 3355    (2.07  ) 3713    (2.30  ) 32069   (19.83 )  Taxus_baccata
+20  161700   41758   (25.82 ) 38766   (23.97 ) 37924   (23.45 ) 3975    (2.46  ) 3827    (2.37  ) 4019    (2.49  ) 31431   (19.44 )  Smilax_bona-nox
+21  161700   35325   (21.85 ) 40883   (25.28 ) 39396   (24.36 ) 4240    (2.62  ) 4419    (2.73  ) 4111    (2.54  ) 33326   (20.61 )  Ricciocarpos_natans
+22  161700   39453   (24.40 ) 36649   (22.66 ) 36852   (22.79 ) 3980    (2.46  ) 4031    (2.49  ) 4197    (2.60  ) 36538   (22.60 )  Houttuynia_cordata
+23  161700   35408   (21.90 ) 40789   (25.23 ) 40731   (25.19 ) 3687    (2.28  ) 3506    (2.17  ) 3688    (2.28  ) 33891   (20.96 )  Bryum_argenteum
+24  161700   34084   (21.08 ) 37730   (23.33 ) 38540   (23.83 ) 4543    (2.81  ) 4432    (2.74  ) 4639    (2.87  ) 37732   (23.33 )  Selaginella_moellendorffii_genome
+25  161700   35135   (21.73 ) 37327   (23.08 ) 36770   (22.74 ) 4196    (2.59  ) 3889    (2.41  ) 4526    (2.80  ) 39857   (24.65 )  Dendrolycopodium_obscurum
+26  161700   36261   (22.42 ) 39895   (24.67 ) 38988   (24.11 ) 4421    (2.73  ) 4033    (2.49  ) 4084    (2.53  ) 34018   (21.04 )  Sphaerocarpos_texanus
+27  161700   35864   (22.18 ) 36222   (22.40 ) 36486   (22.56 ) 4459    (2.76  ) 4370    (2.70  ) 4723    (2.92  ) 39576   (24.47 )  Psilotum_nudum
+28  161700   38218   (23.64 ) 36489   (22.57 ) 36426   (22.53 ) 3448    (2.13  ) 3419    (2.11  ) 3614    (2.24  ) 40086   (24.79 )  Nuphar_advena
+29  161700   38059   (23.54 ) 36037   (22.29 ) 36364   (22.49 ) 3379    (2.09  ) 3138    (1.94  ) 3673    (2.27  ) 41050   (25.39 )  Cunninghamia_lanceolata
+30  161700   39552   (24.46 ) 37151   (22.98 ) 38578   (23.86 ) 3842    (2.38  ) 4371    (2.70  ) 4435    (2.74  ) 33771   (20.88 )  Arabidopsis_thaliana
+31  161700   38929   (24.07 ) 37247   (23.03 ) 38258   (23.66 ) 3807    (2.35  ) 3970    (2.46  ) 3973    (2.46  ) 35516   (21.96 )  Hibiscus_cannabinus
+32  161700   28174   (17.42 ) 37004   (22.88 ) 32656   (20.20 ) 4047    (2.50  ) 4045    (2.50  ) 3855    (2.38  ) 51919   (32.11 )  Chaetosphaeridium_globosum
+33  161700   35266   (21.81 ) 37559   (23.23 ) 37136   (22.97 ) 4404    (2.72  ) 5026    (3.11  ) 5234    (3.24  ) 37075   (22.93 )  Ophioglossum_petiolatum
+34  161700   24928   (15.42 ) 35175   (21.75 ) 30159   (18.65 ) 3719    (2.30  ) 3946    (2.44  ) 3631    (2.25  ) 60142   (37.19 )  Roya_obtusa
+35  161700   32405   (20.04 ) 35617   (22.03 ) 35367   (21.87 ) 2530    (1.56  ) 2545    (1.57  ) 2699    (1.67  ) 50537   (31.25 )  Ceratodon_purpureus
+36  161700   29256   (18.09 ) 31859   (19.70 ) 31310   (19.36 ) 4076    (2.52  ) 4076    (2.52  ) 4031    (2.49  ) 57092   (35.31 )  Metzgeria_crassipilis
+37  161700   37179   (22.99 ) 35703   (22.08 ) 36963   (22.86 ) 2950    (1.82  ) 3277    (2.03  ) 3202    (1.98  ) 42426   (26.24 )  Zea_mays
+38  161700   37861   (23.41 ) 36296   (22.45 ) 37632   (23.27 ) 4043    (2.50  ) 3844    (2.38  ) 3994    (2.47  ) 38030   (23.52 )  Inula_helenium
+39  161700   38953   (24.09 ) 35505   (21.96 ) 37860   (23.41 ) 3053    (1.89  ) 3141    (1.94  ) 3489    (2.16  ) 39699   (24.55 )  Vitis_vinifera
+40  161700   36221   (22.40 ) 39861   (24.65 ) 39415   (24.38 ) 3190    (1.97  ) 3440    (2.13  ) 3493    (2.16  ) 36080   (22.31 )  Thuidium_delicatulum
+41  161700   36717   (22.71 ) 40346   (24.95 ) 39107   (24.18 ) 4017    (2.48  ) 4266    (2.64  ) 4401    (2.72  ) 32846   (20.31 )  Sphagnum_lescurii
+42  161700   39416   (24.38 ) 37458   (23.17 ) 40016   (24.75 ) 3878    (2.40  ) 4173    (2.58  ) 4404    (2.72  ) 32355   (20.01 )  Sorghum_bicolor
+43  161700   39408   (24.37 ) 38311   (23.69 ) 39999   (24.74 ) 3972    (2.46  ) 4076    (2.52  ) 4131    (2.55  ) 31803   (19.67 )  Carica_papaya
+44  161700   39864   (24.65 ) 38948   (24.09 ) 40733   (25.19 ) 3469    (2.15  ) 3520    (2.18  ) 3500    (2.16  ) 31666   (19.58 )  Amborella_trichopoda
+45  161700   30703   (18.99 ) 29180   (18.05 ) 30876   (19.09 ) 2455    (1.52  ) 2369    (1.47  ) 2363    (1.46  ) 63754   (39.43 )  Yucca_filamentosa
+46  161700   27325   (16.90 ) 27162   (16.80 ) 27875   (17.24 ) 1883    (1.16  ) 1842    (1.14  ) 1818    (1.12  ) 73795   (45.64 )  Cycas_rumphii
+47  161700   37062   (22.92 ) 40762   (25.21 ) 38950   (24.09 ) 3259    (2.02  ) 3438    (2.13  ) 3318    (2.05  ) 34911   (21.59 )  Hedwigia_ciliata
+48  161700   18618   (11.51 ) 20633   (12.76 ) 19436   (12.02 ) 3323    (2.06  ) 3593    (2.22  ) 3237    (2.00  ) 92860   (57.43 )  Monomastix_opisthostigma
+49  161700   37707   (23.32 ) 37729   (23.33 ) 39112   (24.19 ) 3626    (2.24  ) 3683    (2.28  ) 3660    (2.26  ) 36183   (22.38 )  Sciadopitys_verticillata
+50  161700   33707   (20.85 ) 35515   (21.96 ) 34848   (21.55 ) 4263    (2.64  ) 4274    (2.64  ) 3923    (2.43  ) 45170   (27.93 )  Tanacetum_parthenium
+51  161700   39155   (24.21 ) 38923   (24.07 ) 40186   (24.85 ) 4040    (2.50  ) 4019    (2.49  ) 4472    (2.77  ) 30905   (19.11 )  Dioscorea_villosa
+52  161700   34631   (21.42 ) 37654   (23.29 ) 35476   (21.94 ) 4454    (2.75  ) 4597    (2.84  ) 4473    (2.77  ) 40415   (24.99 )  Alsophila_spinulosa
+53  161700   35654   (22.05 ) 36008   (22.27 ) 37067   (22.92 ) 3410    (2.11  ) 3485    (2.16  ) 3768    (2.33  ) 42308   (26.16 )  Oryza_sativa
+54  161700   37899   (23.44 ) 39283   (24.29 ) 38158   (23.60 ) 4169    (2.58  ) 4108    (2.54  ) 4075    (2.52  ) 34008   (21.03 )  Marchantia_polymorpha
+55  161700   25671   (15.88 ) 24318   (15.04 ) 26153   (16.17 ) 2429    (1.50  ) 2447    (1.51  ) 2758    (1.71  ) 77924   (48.19 )  Medicago_truncatula
+56  161700   38357   (23.72 ) 38114   (23.57 ) 39906   (24.68 ) 3633    (2.25  ) 3855    (2.38  ) 3610    (2.23  ) 34225   (21.17 )  Juniperus_scopulorum
+57  161700   37316   (23.08 ) 36085   (22.32 ) 37967   (23.48 ) 4170    (2.58  ) 4172    (2.58  ) 4540    (2.81  ) 37450   (23.16 )  Mougeotia_sp
+58  161700   34953   (21.62 ) 35480   (21.94 ) 36341   (22.47 ) 3222    (1.99  ) 3279    (2.03  ) 3552    (2.20  ) 44873   (27.75 )  Gnetum_montanum
+59  161700   39725   (24.57 ) 40660   (25.15 ) 39162   (24.22 ) 3327    (2.06  ) 3513    (2.17  ) 3517    (2.18  ) 31796   (19.66 )  Rhynchostegium_serrulatum
+60  161700   34536   (21.36 ) 33810   (20.91 ) 35168   (21.75 ) 3772    (2.33  ) 3813    (2.36  ) 3816    (2.36  ) 46785   (28.93 )  Nothoceros_vincentianus
+61  161700   37245   (23.03 ) 38044   (23.53 ) 38830   (24.01 ) 3332    (2.06  ) 3733    (2.31  ) 3282    (2.03  ) 37234   (23.03 )  Cycas_micholitzii
+62  161700   35057   (21.68 ) 40454   (25.02 ) 38823   (24.01 ) 3651    (2.26  ) 3831    (2.37  ) 3778    (2.34  ) 36106   (22.33 )  Liriodendron_tulipifera
+63  161700   36247   (22.42 ) 40894   (25.29 ) 39074   (24.16 ) 4424    (2.74  ) 4699    (2.91  ) 4352    (2.69  ) 32010   (19.80 )  Eschscholzia_californica
+64  161700   34897   (21.58 ) 32202   (19.91 ) 32653   (20.19 ) 3816    (2.36  ) 3780    (2.34  ) 4129    (2.55  ) 50223   (31.06 )  Spirotaenia_minuta
+65  161700   35984   (22.25 ) 39539   (24.45 ) 37832   (23.40 ) 3570    (2.21  ) 3974    (2.46  ) 3662    (2.26  ) 37139   (22.97 )  Rosmarinus_officinalis
+66  161700   37887   (23.43 ) 41693   (25.78 ) 39709   (24.56 ) 3712    (2.30  ) 4140    (2.56  ) 3511    (2.17  ) 31048   (19.20 )  Allamanda_cathartica
+67  161700   28011   (17.32 ) 30039   (18.58 ) 29540   (18.27 ) 2368    (1.46  ) 2604    (1.61  ) 2355    (1.46  ) 66783   (41.30 )  Zamia_vazquezii
+68  161700   34348   (21.24 ) 29560   (18.28 ) 30884   (19.10 ) 4009    (2.48  ) 3552    (2.20  ) 4126    (2.55  ) 55221   (34.15 )  Mesostigma_viride
+69  161700   39040   (24.14 ) 31601   (19.54 ) 38028   (23.52 ) 3999    (2.47  ) 4194    (2.59  ) 3884    (2.40  ) 40954   (25.33 )  Cylindrocystis_brebissonii
+70  161700   34885   (21.57 ) 24013   (14.85 ) 32729   (20.24 ) 3180    (1.97  ) 3188    (1.97  ) 3653    (2.26  ) 60052   (37.14 )  Cosmarium_ochthodes
+71  161700   32126   (19.87 ) 29140   (18.02 ) 32426   (20.05 ) 4457    (2.76  ) 4607    (2.85  ) 4036    (2.50  ) 54908   (33.96 )  Netrium_digitus
+72  161700   35171   (21.75 ) 27752   (17.16 ) 31452   (19.45 ) 3937    (2.43  ) 4025    (2.49  ) 4042    (2.50  ) 55321   (34.21 )  Spirogyra_sp
+73  161700   37700   (23.31 ) 35111   (21.71 ) 37988   (23.49 ) 4125    (2.55  ) 4566    (2.82  ) 3858    (2.39  ) 38352   (23.72 )  Nothoceros_aenigmaticus
+74  161700   42313   (26.17 ) 31162   (19.27 ) 36973   (22.87 ) 3772    (2.33  ) 3285    (2.03  ) 4275    (2.64  ) 39920   (24.69 )  Entransia_fimbriata
+75  161700   34308   (21.22 ) 35886   (22.19 ) 37606   (23.26 ) 3954    (2.45  ) 3998    (2.47  ) 3719    (2.30  ) 42229   (26.12 )  Bazzania_trilobata
+76  161700   37698   (23.31 ) 38625   (23.89 ) 37029   (22.90 ) 3504    (2.17  ) 3460    (2.14  ) 3027    (1.87  ) 38357   (23.72 )  Physcomitrella_patens
+77  161700   35799   (22.14 ) 29860   (18.47 ) 33618   (20.79 ) 5160    (3.19  ) 3941    (2.44  ) 4905    (3.03  ) 48417   (29.94 )  Chara_vulgaris
+78  161700   34745   (21.49 ) 42251   (26.13 ) 39693   (24.55 ) 3925    (2.43  ) 4420    (2.73  ) 4037    (2.50  ) 32629   (20.18 )  Diospyros_malabarica
+79  161700   35721   (22.09 ) 42610   (26.35 ) 39980   (24.72 ) 3572    (2.21  ) 3972    (2.46  ) 3095    (1.91  ) 32750   (20.25 )  Cedrus_libani
+80  161700   43163   (26.69 ) 33257   (20.57 ) 37703   (23.32 ) 4102    (2.54  ) 3597    (2.22  ) 4191    (2.59  ) 35687   (22.07 )  Klebsormidium_subtile
+81  161700   28205   (17.44 ) 29784   (18.42 ) 32592   (20.16 ) 2206    (1.36  ) 2876    (1.78  ) 2455    (1.52  ) 63582   (39.32 )  Huperzia_squarrosa
+82  161700   36651   (22.67 ) 36352   (22.48 ) 38490   (23.80 ) 3746    (2.32  ) 3484    (2.15  ) 4020    (2.49  ) 38957   (24.09 )  Marchantia_emarginata
+83  161700   32713   (20.23 ) 40211   (24.87 ) 40439   (25.01 ) 3737    (2.31  ) 4569    (2.83  ) 3538    (2.19  ) 36493   (22.57 )  Sarcandra_glabra
+84  161700   38945   (24.08 ) 33988   (21.02 ) 34613   (21.41 ) 4030    (2.49  ) 4047    (2.50  ) 4136    (2.56  ) 41941   (25.94 )  Cylindrocystis_cushleckae
+85  161700   32088   (19.84 ) 34632   (21.42 ) 37953   (23.47 ) 4153    (2.57  ) 5509    (3.41  ) 4341    (2.68  ) 43024   (26.61 )  Equisetum_diffusum
+86  161700   34211   (21.16 ) 40603   (25.11 ) 41324   (25.56 ) 3355    (2.07  ) 3972    (2.46  ) 3272    (2.02  ) 34963   (21.62 )  Catharanthus_roseus
+87  161700   31089   (19.23 ) 37510   (23.20 ) 39483   (24.42 ) 3431    (2.12  ) 3861    (2.39  ) 3128    (1.93  ) 43198   (26.71 )  Persea_americana
+88  161700   26954   (16.67 ) 32372   (20.02 ) 34674   (21.44 ) 2885    (1.78  ) 3061    (1.89  ) 3326    (2.06  ) 58428   (36.13 )  Aquilegia_formosa
+89  161700   31781   (19.65 ) 37146   (22.97 ) 38046   (23.53 ) 3780    (2.34  ) 4001    (2.47  ) 3510    (2.17  ) 43436   (26.86 )  Ipomoea_purpurea
+90  161700   34639   (21.42 ) 34715   (21.47 ) 34589   (21.39 ) 3967    (2.45  ) 3804    (2.35  ) 4514    (2.79  ) 45472   (28.12 )  Selaginella_moellendorffii_1kp
+91  161700   33966   (21.01 ) 41615   (25.74 ) 41316   (25.55 ) 5013    (3.10  ) 4176    (2.58  ) 3974    (2.46  ) 31640   (19.57 )  Brachypodium_distachyon
+92  161700   40152   (24.83 ) 39356   (24.34 ) 36389   (22.50 ) 3592    (2.22  ) 3396    (2.10  ) 3592    (2.22  ) 35223   (21.78 )  Leucodon_brachypus
+93  161700   39139   (24.20 ) 37790   (23.37 ) 36051   (22.29 ) 3187    (1.97  ) 3766    (2.33  ) 3603    (2.23  ) 38164   (23.60 )  Mesotaenium_endlicherianum
+94  161700   15203   (9.40  ) 23497   (14.53 ) 25158   (15.56 ) 1520    (0.94  ) 1900    (1.18  ) 1745    (1.08  ) 92677   (57.31 )  Colchicum_autumnale
+95  161700   37134   (22.96 ) 37631   (23.27 ) 36297   (22.45 ) 3597    (2.22  ) 3567    (2.21  ) 3338    (2.06  ) 40136   (24.82 )  Rosulabryum_cf_capillare
+96  161700   32195   (19.91 ) 37277   (23.05 ) 37699   (23.31 ) 3457    (2.14  ) 3445    (2.13  ) 3642    (2.25  ) 43985   (27.20 )  Populus_trichocarpa
+97  161700   19442   (12.02 ) 24794   (15.33 ) 29346   (18.15 ) 2841    (1.76  ) 3435    (2.12  ) 3515    (2.17  ) 78327   (48.44 )  Coleochaete_irregularis
+98  161700   31277   (19.34 ) 40069   (24.78 ) 43073   (26.64 ) 3931    (2.43  ) 3969    (2.45  ) 3800    (2.35  ) 35581   (22.00 )  Kadsura_heteroclita
+99  161700   37219   (23.02 ) 38866   (24.04 ) 36425   (22.53 ) 3278    (2.03  ) 3596    (2.22  ) 3518    (2.18  ) 38798   (23.99 )  Polytrichum_commune
+100 161700   23391   (14.47 ) 22771   (14.08 ) 21131   (13.07 ) 2433    (1.50  ) 2053    (1.27  ) 2340    (1.45  ) 87581   (54.16 )  Pyramimonas_parkeae
+101 161700   35252   (21.80 ) 41376   (25.59 ) 41841   (25.88 ) 3392    (2.10  ) 4155    (2.57  ) 3661    (2.26  ) 32023   (19.80 )  Pinus_taeda
+------------------------------------------------------------------------------------------------------------------------------------------------
+    4082925  868637  (21.27 ) 895702  (21.94 ) 909941  (22.29 ) 93925   (2.30  ) 96276   (2.36  ) 96600   (2.37  ) 1121844 (27.48 )  
+
+
+
+Quartet resolution per sequence (phylogenetic information):
+
+      #quartets   resolved           partly          unresolved  name
+-----------------------------------------------------------------------------
+1   161700   97832   (60.50 ) 6873    (4.25  ) 56995   (35.25 )  Sabal_bermudana
+2   161700   83929   (51.90 ) 11113   (6.87  ) 66658   (41.22 )  Coleochaete_scutata
+3   161700   115988  (71.73 ) 10580   (6.54  ) 35132   (21.73 )  Saruma_henryi
+4   161700   114278  (70.67 ) 8885    (5.49  ) 38537   (23.83 )  Anomodon_attenuatus
+5   161700   108187  (66.91 ) 11609   (7.18  ) 41904   (25.91 )  Pseudolycopodiella_caroliniana
+6   161700   25450   (15.74 ) 30447   (18.83 ) 105803  (65.43 )  Penium_margaritaceum
+7   161700   98112   (60.68 ) 12685   (7.84  ) 50903   (31.48 )  Chlorokybus_atmophyticus
+8   161700   111151  (68.74 ) 14297   (8.84  ) 36252   (22.42 )  Angiopteris_evecta
+9   161700   113228  (70.02 ) 12327   (7.62  ) 36145   (22.35 )  Podophyllum_peltatum
+10  161700   107285  (66.35 ) 11190   (6.92  ) 43225   (26.73 )  Larrea_tridentata
+11  161700   108491  (67.09 ) 11496   (7.11  ) 41713   (25.80 )  Ephedra_sinica
+12  161700   113474  (70.18 ) 12689   (7.85  ) 35537   (21.98 )  Acorus_americanus
+13  161700   99460   (61.51 ) 13710   (8.48  ) 48530   (30.01 )  Nephroselmis_pyriformis
+14  161700   108410  (67.04 ) 11892   (7.35  ) 41398   (25.60 )  Prumnopitys_andina
+15  161700   95692   (59.18 ) 9871    (6.10  ) 56137   (34.72 )  Pteridium_aquilinum
+16  161700   113504  (70.19 ) 10758   (6.65  ) 37438   (23.15 )  Ginkgo_biloba
+17  161700   117694  (72.79 ) 12107   (7.49  ) 31899   (19.73 )  Boehmeria_nivea
+18  161700   113090  (69.94 ) 12302   (7.61  ) 36308   (22.45 )  Kochia_scoparia
+19  161700   119124  (73.67 ) 10507   (6.50  ) 32069   (19.83 )  Taxus_baccata
+20  161700   118448  (73.25 ) 11821   (7.31  ) 31431   (19.44 )  Smilax_bona-nox
+21  161700   115604  (71.49 ) 12770   (7.90  ) 33326   (20.61 )  Ricciocarpos_natans
+22  161700   112954  (69.85 ) 12208   (7.55  ) 36538   (22.60 )  Houttuynia_cordata
+23  161700   116928  (72.31 ) 10881   (6.73  ) 33891   (20.96 )  Bryum_argenteum
+24  161700   110354  (68.25 ) 13614   (8.42  ) 37732   (23.33 )  Selaginella_moellendorffii_genome
+25  161700   109232  (67.55 ) 12611   (7.80  ) 39857   (24.65 )  Dendrolycopodium_obscurum
+26  161700   115144  (71.21 ) 12538   (7.75  ) 34018   (21.04 )  Sphaerocarpos_texanus
+27  161700   108572  (67.14 ) 13552   (8.38  ) 39576   (24.47 )  Psilotum_nudum
+28  161700   111133  (68.73 ) 10481   (6.48  ) 40086   (24.79 )  Nuphar_advena
+29  161700   110460  (68.31 ) 10190   (6.30  ) 41050   (25.39 )  Cunninghamia_lanceolata
+30  161700   115281  (71.29 ) 12648   (7.82  ) 33771   (20.88 )  Arabidopsis_thaliana
+31  161700   114434  (70.77 ) 11750   (7.27  ) 35516   (21.96 )  Hibiscus_cannabinus
+32  161700   97834   (60.50 ) 11947   (7.39  ) 51919   (32.11 )  Chaetosphaeridium_globosum
+33  161700   109961  (68.00 ) 14664   (9.07  ) 37075   (22.93 )  Ophioglossum_petiolatum
+34  161700   90262   (55.82 ) 11296   (6.99  ) 60142   (37.19 )  Roya_obtusa
+35  161700   103389  (63.94 ) 7774    (4.81  ) 50537   (31.25 )  Ceratodon_purpureus
+36  161700   92425   (57.16 ) 12183   (7.53  ) 57092   (35.31 )  Metzgeria_crassipilis
+37  161700   109845  (67.93 ) 9429    (5.83  ) 42426   (26.24 )  Zea_mays
+38  161700   111789  (69.13 ) 11881   (7.35  ) 38030   (23.52 )  Inula_helenium
+39  161700   112318  (69.46 ) 9683    (5.99  ) 39699   (24.55 )  Vitis_vinifera
+40  161700   115497  (71.43 ) 10123   (6.26  ) 36080   (22.31 )  Thuidium_delicatulum
+41  161700   116170  (71.84 ) 12684   (7.84  ) 32846   (20.31 )  Sphagnum_lescurii
+42  161700   116890  (72.29 ) 12455   (7.70  ) 32355   (20.01 )  Sorghum_bicolor
+43  161700   117718  (72.80 ) 12179   (7.53  ) 31803   (19.67 )  Carica_papaya
+44  161700   119545  (73.93 ) 10489   (6.49  ) 31666   (19.58 )  Amborella_trichopoda
+45  161700   90759   (56.13 ) 7187    (4.44  ) 63754   (39.43 )  Yucca_filamentosa
+46  161700   82362   (50.94 ) 5543    (3.43  ) 73795   (45.64 )  Cycas_rumphii
+47  161700   116774  (72.22 ) 10015   (6.19  ) 34911   (21.59 )  Hedwigia_ciliata
+48  161700   58687   (36.29 ) 10153   (6.28  ) 92860   (57.43 )  Monomastix_opisthostigma
+49  161700   114548  (70.84 ) 10969   (6.78  ) 36183   (22.38 )  Sciadopitys_verticillata
+50  161700   104070  (64.36 ) 12460   (7.71  ) 45170   (27.93 )  Tanacetum_parthenium
+51  161700   118264  (73.14 ) 12531   (7.75  ) 30905   (19.11 )  Dioscorea_villosa
+52  161700   107761  (66.64 ) 13524   (8.36  ) 40415   (24.99 )  Alsophila_spinulosa
+53  161700   108729  (67.24 ) 10663   (6.59  ) 42308   (26.16 )  Oryza_sativa
+54  161700   115340  (71.33 ) 12352   (7.64  ) 34008   (21.03 )  Marchantia_polymorpha
+55  161700   76142   (47.09 ) 7634    (4.72  ) 77924   (48.19 )  Medicago_truncatula
+56  161700   116377  (71.97 ) 11098   (6.86  ) 34225   (21.17 )  Juniperus_scopulorum
+57  161700   111368  (68.87 ) 12882   (7.97  ) 37450   (23.16 )  Mougeotia_sp
+58  161700   106774  (66.03 ) 10053   (6.22  ) 44873   (27.75 )  Gnetum_montanum
+59  161700   119547  (73.93 ) 10357   (6.41  ) 31796   (19.66 )  Rhynchostegium_serrulatum
+60  161700   103514  (64.02 ) 11401   (7.05  ) 46785   (28.93 )  Nothoceros_vincentianus
+61  161700   114119  (70.57 ) 10347   (6.40  ) 37234   (23.03 )  Cycas_micholitzii
+62  161700   114334  (70.71 ) 11260   (6.96  ) 36106   (22.33 )  Liriodendron_tulipifera
+63  161700   116215  (71.87 ) 13475   (8.33  ) 32010   (19.80 )  Eschscholzia_californica
+64  161700   99752   (61.69 ) 11725   (7.25  ) 50223   (31.06 )  Spirotaenia_minuta
+65  161700   113355  (70.10 ) 11206   (6.93  ) 37139   (22.97 )  Rosmarinus_officinalis
+66  161700   119289  (73.77 ) 11363   (7.03  ) 31048   (19.20 )  Allamanda_cathartica
+67  161700   87590   (54.17 ) 7327    (4.53  ) 66783   (41.30 )  Zamia_vazquezii
+68  161700   94792   (58.62 ) 11687   (7.23  ) 55221   (34.15 )  Mesostigma_viride
+69  161700   108669  (67.20 ) 12077   (7.47  ) 40954   (25.33 )  Cylindrocystis_brebissonii
+70  161700   91627   (56.66 ) 10021   (6.20  ) 60052   (37.14 )  Cosmarium_ochthodes
+71  161700   93692   (57.94 ) 13100   (8.10  ) 54908   (33.96 )  Netrium_digitus
+72  161700   94375   (58.36 ) 12004   (7.42  ) 55321   (34.21 )  Spirogyra_sp
+73  161700   110799  (68.52 ) 12549   (7.76  ) 38352   (23.72 )  Nothoceros_aenigmaticus
+74  161700   110448  (68.30 ) 11332   (7.01  ) 39920   (24.69 )  Entransia_fimbriata
+75  161700   107800  (66.67 ) 11671   (7.22  ) 42229   (26.12 )  Bazzania_trilobata
+76  161700   113352  (70.10 ) 9991    (6.18  ) 38357   (23.72 )  Physcomitrella_patens
+77  161700   99277   (61.40 ) 14006   (8.66  ) 48417   (29.94 )  Chara_vulgaris
+78  161700   116689  (72.16 ) 12382   (7.66  ) 32629   (20.18 )  Diospyros_malabarica
+79  161700   118311  (73.17 ) 10639   (6.58  ) 32750   (20.25 )  Cedrus_libani
+80  161700   114123  (70.58 ) 11890   (7.35  ) 35687   (22.07 )  Klebsormidium_subtile
+81  161700   90581   (56.02 ) 7537    (4.66  ) 63582   (39.32 )  Huperzia_squarrosa
+82  161700   111493  (68.95 ) 11250   (6.96  ) 38957   (24.09 )  Marchantia_emarginata
+83  161700   113363  (70.11 ) 11844   (7.32  ) 36493   (22.57 )  Sarcandra_glabra
+84  161700   107546  (66.51 ) 12213   (7.55  ) 41941   (25.94 )  Cylindrocystis_cushleckae
+85  161700   104673  (64.73 ) 14003   (8.66  ) 43024   (26.61 )  Equisetum_diffusum
+86  161700   116138  (71.82 ) 10599   (6.55  ) 34963   (21.62 )  Catharanthus_roseus
+87  161700   108082  (66.84 ) 10420   (6.44  ) 43198   (26.71 )  Persea_americana
+88  161700   94000   (58.13 ) 9272    (5.73  ) 58428   (36.13 )  Aquilegia_formosa
+89  161700   106973  (66.16 ) 11291   (6.98  ) 43436   (26.86 )  Ipomoea_purpurea
+90  161700   103943  (64.28 ) 12285   (7.60  ) 45472   (28.12 )  Selaginella_moellendorffii_1kp
+91  161700   116897  (72.29 ) 13163   (8.14  ) 31640   (19.57 )  Brachypodium_distachyon
+92  161700   115897  (71.67 ) 10580   (6.54  ) 35223   (21.78 )  Leucodon_brachypus
+93  161700   112980  (69.87 ) 10556   (6.53  ) 38164   (23.60 )  Mesotaenium_endlicherianum
+94  161700   63858   (39.49 ) 5165    (3.19  ) 92677   (57.31 )  Colchicum_autumnale
+95  161700   111062  (68.68 ) 10502   (6.49  ) 40136   (24.82 )  Rosulabryum_cf_capillare
+96  161700   107171  (66.28 ) 10544   (6.52  ) 43985   (27.20 )  Populus_trichocarpa
+97  161700   73582   (45.51 ) 9791    (6.06  ) 78327   (48.44 )  Coleochaete_irregularis
+98  161700   114419  (70.76 ) 11700   (7.24  ) 35581   (22.00 )  Kadsura_heteroclita
+99  161700   112510  (69.58 ) 10392   (6.43  ) 38798   (23.99 )  Polytrichum_commune
+100 161700   67293   (41.62 ) 6826    (4.22  ) 87581   (54.16 )  Pyramimonas_parkeae
+101 161700   118469  (73.26 ) 11208   (6.93  ) 32023   (19.80 )  Pinus_taeda
+-----------------------------------------------------------------------------
+    4082925  2674280 (65.50 ) 286801  (7.02  ) 1121844 (27.48 )  
+Overall quartet resolution:
+
+Number of fully resolved  quartets (regions 1+2+3): 2674280 (=65.50%)
+Number of partly resolved quartets (regions 4+5+6): 286801 (=7.02%)
+Number of unresolved      quartets (region 7)     : 1121844 (=27.48%)
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -37338.62 (s.e. 671.18)
+Unconstrained log-likelihood (without tree): -7261.60
+Number of free parameters (#branches + #model parameters): 208
+Akaike information criterion (AIC) score: 75093.24
+Corrected Akaike information criterion (AICc) score: 75196.86
+Bayesian information criterion (BIC) score: 76123.80
+
+Total tree length (sum of branch lengths): 20.00
+Sum of internal branch lengths: 5.14 (25.68% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.00) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Sabal_bermudana' is drawn at root
+
++--Sabal_bermudana
+|
+|                                                          +**Coleochaete_scutata
+|                                         +----------------|
+|                                         |                +---------------Coleochaete_irregularis
+|                                      +--|
+|                                      |  +---------Chaetosphaeridium_globosum
+|                                   +--|
+|                                   |  |        +------------Chlorokybus_atmophyticus
+|                                   |  |     +**|
+|                                   |  |     |  +---------------------Spirotaenia_minuta
+|                                   |  |  +--|
+|                                   |  |  |  +-----------------------Pyramimonas_parkeae
+|                                   |  +--|
+|                                   |     |     +----------------Nephroselmis_pyriformis
+|                                   |     |  +--|
+|                                   |     |  |  +----------------------------Monomastix_opisthostigma
+|                                   |     +--|
+|                                   |        +-------------Mesostigma_viride
+|                                +--|
+|                                |  |  +-------------Roya_obtusa
+|                                |  +--|
+|                                |     |  +--------Entransia_fimbriata
+|                                |     +--|
+|                                |        +---------Klebsormidium_subtile
+|                             +--|
+|                             |  |               +-----------------Penium_margaritaceum
+|                             |  |  +------------|
+|                             |  |  |            +--Cosmarium_ochthodes
+|                             |  +--|
+|                             |     |        +--------------Mougeotia_sp
+|                             |     |     +--|
+|                             |     |     |  |  +-------Cylindrocystis_brebissonii
+|                             |     |     |  +--|
+|                             |     |     |     +---------Cylindrocystis_cushleckae
+|                             |     |  +--|
+|                             |     |  |  +-----------Spirogyra_sp
+|                             |     +--|
+|                             |        |  +-------------Netrium_digitus
+|                             |        +--|
+|                             |           +---Mesotaenium_endlicherianum
+|                          +--|
+|                          |  +-------------Chara_vulgaris
+|                     +----|
+|                     |    |                          +--Anomodon_attenuatus
+|                     |    |                       +--|
+|                     |    |                       |  +--Thuidium_delicatulum
+|                     |    |                    +--|
+|                     |    |                    |  +--Leucodon_brachypus
+|                     |    |                 +--|
+|                     |    |                 |  +--Rhynchostegium_serrulatum
+|                     |    |              +--|
+|                     |    |              |  |     +--Bryum_argenteum
+|                     |    |              |  |  +--|
+|                     |    |              |  |  |  +--Rosulabryum_cf_capillare
+|                     |    |              |  +--|
+|                     |    |              |     +--Hedwigia_ciliata
+|                     |    |           +--|
+|                     |    |           |  |  +--Ceratodon_purpureus
+|                     |    |           |  +--|
+|                     |    |           |     +--Physcomitrella_patens
+|                     |    |        +--|
+|                     |    |        |  +--Polytrichum_commune
+|                     |    |     +--|
+|                     |    |     |  +---Sphagnum_lescurii
+|                     |    |  +--|
+|                     |    |  |  |            +--Pseudolycopodiella_caroliniana
+|                     |    |  |  |        +---|
+|                     |    |  |  |        |   |  +--Dendrolycopodium_obscurum
+|                     |    |  |  |        |   +--|
+|                     |    |  |  |        |      +---Huperzia_squarrosa
+|                     |    |  |  |     +--|
+|                     |    |  |  |     |  |          +--Selaginella_moellendorffii_genome
+|                     |    |  |  |     |  |  +-------|
+|                     |    |  |  |     |  |  |       +--Selaginella_moellendorffii_1kp
+|                     |    |  |  |     |  +--|
+|                     |    |  |  |     |     +------Equisetum_diffusum
+|                     |    |  |  |  +--|
+|                     |    |  |  |  |  |     +--Angiopteris_evecta
+|                     |    |  |  |  |  |  +--|
+|                     |    |  |  |  |  |  |  |  +--Psilotum_nudum
+|                     |    |  |  |  |  |  |  +--|
+|                     |    |  |  |  |  |  |     +----Ophioglossum_petiolatum
+|                     |    |  |  |  |  +--|
+|                     |    |  |  |  |     |   +--Pteridium_aquilinum
+|                     |    |  |  |  |     +---|
+|                     |    |  |  |  |         +--Alsophila_spinulosa
+|                     |    |  |  +--|
+|                     |    |  |     |         +--Nothoceros_vincentianus
+|                     |    |  |     +---------|
+|                     |    |  |               +--Nothoceros_aenigmaticus
+|                     |    +--|
+|                     |       |        +--Ricciocarpos_natans
+|                     |       |     +--|
+|                     |       |     |  |  +--Sphaerocarpos_texanus
+|                     |       |     |  +--|
+|                     |       |     |     |  +--Marchantia_polymorpha
+|                     |       |     |     +--|
+|                     |       |     |        +--Marchantia_emarginata
+|                     |       |  +--|
+|                     |       |  |  +--------Metzgeria_crassipilis
+|                     |       +--|
+|                     |          +---Bazzania_trilobata
+|                 +---|
+|                 |   |           +--Ephedra_sinica
+|                 |   |        +--|
+|                 |   |        |  +---Gnetum_montanum
+|                 |   |     +--|
+|                 |   |     |  |     +--Prumnopitys_andina
+|                 |   |     |  |  +--|
+|                 |   |     |  |  |  |     +--Taxus_baccata
+|                 |   |     |  |  |  |  +--|
+|                 |   |     |  |  |  |  |  |  +--Cunninghamia_lanceolata
+|                 |   |     |  |  |  |  |  +--|
+|                 |   |     |  |  |  |  |     +--Juniperus_scopulorum
+|                 |   |     |  |  |  +--|
+|                 |   |     |  |  |     |     +--Cycas_rumphii
+|                 |   |     |  |  |     |  +**|
+|                 |   |     |  |  |     |  |  +--Sciadopitys_verticillata
+|                 |   |     |  |  |     +--|
+|                 |   |     |  |  |        +--Zamia_vazquezii
+|                 |   |     |  +--|
+|                 |   |     |     |  +--Cedrus_libani
+|                 |   |     |     +--|
+|                 |   |     |        +--Pinus_taeda
+|                 |   |  +--|
+|                 |   |  |  +--Ginkgo_biloba
+|                 |   +--|
+|                 |      +--Cycas_micholitzii
+|              +--|
+|              |  +--Amborella_trichopoda
+|           +--|
+|           |  +--Kadsura_heteroclita
+|        +--|
+|        |  |           +--Saruma_henryi
+|        |  |        +--|
+|        |  |        |  +---Houttuynia_cordata
+|        |  |     +--|
+|        |  |     |  +--Liriodendron_tulipifera
+|        |  |  +--|
+|        |  |  |  |  +----Nuphar_advena
+|        |  |  |  +--|
+|        |  |  |     +--Persea_americana
+|        |  +--|
+|        |     |        +--Podophyllum_peltatum
+|        |     |     +--|
+|        |     |     |  |     +----Acorus_americanus
+|        |     |     |  |  +--|
+|        |     |     |  |  |  +--Eschscholzia_californica
+|        |     |     |  +--|
+|        |     |     |     +--Aquilegia_formosa
+|        |     |  +--|
+|        |     |  |  |           +----Larrea_tridentata
+|        |     |  |  |        +--|
+|        |     |  |  |        |  |           +------Arabidopsis_thaliana
+|        |     |  |  |        |  |        +--|
+|        |     |  |  |        |  |        |  +--Hibiscus_cannabinus
+|        |     |  |  |        |  |     +--|
+|        |     |  |  |        |  |     |  +--Carica_papaya
+|        |     |  |  |        |  |  +**|
+|        |     |  |  |        |  |  |  +---Medicago_truncatula
+|        |     |  |  |        |  +--|
+|        |     |  |  |        |     +--Populus_trichocarpa
+|        |     |  |  |     +--|
+|        |     |  |  |     |  +--Boehmeria_nivea
+|        |     |  |  |  +--|
+|        |     |  |  |  |  +--Vitis_vinifera
+|        |     |  |  +--|
+|        |     |  |     |  +------Kochia_scoparia
+|        |     |  |     +--|
+|        |     |  |        |     +--Inula_helenium
+|        |     |  |        |  +--|
+|        |     |  |        |  |  +--Tanacetum_parthenium
+|        |     |  |        +--|
+|        |     |  |           |        +---Rosmarinus_officinalis
+|        |     |  |           |     +--|
+|        |     |  |           |     |  +---Ipomoea_purpurea
+|        |     |  |           |  +--|
+|        |     |  |           |  |  |  +--Allamanda_cathartica
+|        |     |  |           |  |  +--|
+|        |     |  |           |  |     +--Catharanthus_roseus
+|        |     |  |           +--|
+|        |     |  |              +--Diospyros_malabarica
+|        |     +--|
+|        |        +--Sarcandra_glabra
+|     +--|
+|     |  +---Dioscorea_villosa
+|  +--|
+|  |  +---Yucca_filamentosa
++--|
+|  |  +--Smilax_bona-nox
+|  +--|
+|     +----Colchicum_autumnale
+|
+|          +--Zea_mays
+|       +--|
+|       |  +--Sorghum_bicolor
+|    +--|
+|    |  +--Oryza_sativa
++----|
+     +--Brachypodium_distachyon
+
+Tree in newick format:
+
+(Sabal_bermudana:0.0933979483,((((((((((((((Coleochaete_scutata:0.0000021011,Coleochaete_irregularis:0.4977670482):0.5122034733,Chaetosphaeridium_globosum:0.3003729086):0.0315988625,(((Chlorokybus_atmophyticus:0.3910645581,Spirotaenia_minuta:0.6639077366):0.0000026430,Pyramimonas_parkeae:0.7365062605):0.0756980752,((Nephroselmis_pyriformis:0.5200596431,Monomastix_opisthostigma:0.8943498749):0.0662918979,Mesostigma_viride:0.4391638700):0.0463366304):0.0611176690):0.0837459700,(Roya_obtusa:0.4302240694,(Entransia_fimbriata:0.2963823406,Klebsormidium_subtile:0.3041178657):0.0769060661):0.0222981546):0.0388765183,((Penium_margaritaceum:0.5435034924,Cosmarium_ochthodes:0.0435131402):0.4082013980,(((Mougeotia_sp:0.4502778880,(Cylindrocystis_brebissonii:0.2528388874,Cylindrocystis_cushleckae:0.2985603346):0.0270151120):0.0458997441,Spirogyra_sp:0.3618410774):0.0238041587,(Netrium_digitus:0.4445128538,Mesotaenium_endlicherianum:0.1450064093):0.1036870426):0.0331382499):0.0411365898):0.0544759750,Chara_vulgaris:0.4351771647):0.0863803364,(((((((((Anomodon_attenuatus:0.0036897180,Thuidium_delicatulum:0.0055547377):0.0018214432,Leucodon_brachypus:0.1034240423):0.0020398865,Rhynchostegium_serrulatum:0.0089504369):0.0205434896,((Bryum_argenteum:0.0091185661,Rosulabryum_cf_capillare:0.0102792055):0.0575155528,Hedwigia_ciliata:0.0211660994):0.0080789424):0.0256780468,(Ceratodon_purpureus:0.0264046752,Physcomitrella_patens:0.0634271996):0.0106674325):0.0520131668,Polytrichum_commune:0.0928506467):0.0996438146,Sphagnum_lescurii:0.1386739744):0.0563736763,((((Pseudolycopodiella_caroliniana:0.0742575165,(Dendrolycopodium_obscurum:0.0267670223,Huperzia_squarrosa:0.1361578162):0.0233583347):0.1318421230,((Selaginella_moellendorffii_genome:0.0032183746,Selaginella_moellendorffii_1kp:0.0019871318):0.2508176083,Equisetum_diffusum:0.2182899119):0.0546749614):0.0285594557,((Angiopteris_evecta:0.0946613605,(Psilotum_nudum:0.0925154564,Ophioglossum_petiolatum:0.1605758132):0.0503731842):0.0227948462,(Pteridium_aquilinum:0.0917871321,Alsophila_spinulosa:0.0203213862):0.1364152749):0.0362411237):0.0154718539,(Nothoceros_vincentianus:0.0074479828,Nothoceros_aenigmaticus:0.0073525963):0.3261515628):0.0210305064):0.0198539650,(((Ricciocarpos_natans:0.0305667255,(Sphaerocarpos_texanus:0.0869252001,(Marchantia_polymorpha:0.0320363271,Marchantia_emarginata:0.0250352662):0.0238549613):0.0198643633):0.0638908676,Metzgeria_crassipilis:0.2959201734):0.0310439296,Bazzania_trilobata:0.1486264432):0.0896902224):0.0230059068):0.1544648476,((((Ephedra_sinica:0.1045719224,Gnetum_montanum:0.1322158534):0.0768636536,((Prumnopitys_andina:0.1160637826,((Taxus_baccata:0.0427495119,(Cunninghamia_lanceolata:0.0261014150,Juniperus_scopulorum:0.0305122167):0.0317722543):0.0439225059,((Cycas_rumphii:0.0052915133,Sciadopitys_verticillata:0.0304015957):0.0000020373,Zamia_vazquezii:0.0217053170):0.0084356990):0.0154691313):0.0264441074,(Cedrus_libani:0.0478638084,Pinus_taeda:0.0256140019):0.0496314110):0.0106923844):0.0167906086,Ginkgo_biloba:0.0442598921):0.0191986023,Cycas_micholitzii:0.0510251259):0.0345165797):0.1265796769,Amborella_trichopoda:0.1182671274):0.0388328158,Kadsura_heteroclita:0.0975080872):0.0383069690,((((Saruma_henryi:0.0548621111,Houttuynia_cordata:0.1457596617):0.0327040645,Liriodendron_tulipifera:0.0680410545):0.0046487258,(Nuphar_advena:0.1600534697,Persea_americana:0.0662847913):0.0332605997):0.0066906225,(((Podophyllum_peltatum:0.1083707800,((Acorus_americanus:0.1727965607,Eschscholzia_californica:0.1167248448):0.0130519765,Aquilegia_formosa:0.1175427508):0.0068455883):0.0065938165,((((Larrea_tridentata:0.1504800453,((((Arabidopsis_thaliana:0.2109164949,Hibiscus_cannabinus:0.1126575080):0.0078402674,Carica_papaya:0.0729817610):0.0171693651,Medicago_truncatula:0.1480596146):0.0000022252,Populus_trichocarpa:0.0987628218):0.0205819988):0.0111565788,Boehmeria_nivea:0.1035068477):0.0132832015,Vitis_vinifera:0.0793703537):0.0063567751,(Kochia_scoparia:0.2179449924,((Inula_helenium:0.0410842360,Tanacetum_parthenium:0.0592490009):0.1136943602,(((Rosmarinus_officinalis:0.1232853016,Ipomoea_purpurea:0.1359459442):0.0148794589,(Allamanda_cathartica:0.0423239518,Catharanthus_roseus:0.0381172026):0.0344009044):0.0286650522,Diospyros_malabarica:0.1182152300):0.0116918422):0.0129679982):0.0124395680):0.0431973885):0.0224614276,Sarcandra_glabra:0.0793316205):0.0071335107):0.0164290228):0.0544980776,Dioscorea_villosa:0.1217960366):0.0074270341,Yucca_filamentosa:0.1426466912):0.0130836493,(Smilax_bona-nox:0.0034415612,Colchicum_autumnale:0.1661310707):0.0627171301):0.0246214229,(((Zea_mays:0.0070200818,Sorghum_bicolor:0.0089526582):0.0497477460,Oryza_sativa:0.0406543020):0.0196513357,Brachypodium_distachyon:0.0586665895):0.1735678001);
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug 22 11:00:19 2019
+Total CPU time used: 10141.6 seconds (2h:49m:1s)
+Total wall-clock time used: 3107.65 seconds (0h:51m:47s)
+

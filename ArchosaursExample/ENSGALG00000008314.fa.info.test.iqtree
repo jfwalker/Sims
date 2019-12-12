@@ -1,0 +1,236 @@
+IQ-TREE 1.6.11 built Jul 12 2019
+
+Input file name: ENSGALG00000008314.fa.info.test
+Type of analysis: tree reconstruction
+Random seed number: 480182
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 441 nucleotide sites
+Number of constant sites: 271 (= 61.4512% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 271 (= 61.4512% of all sites)
+Number of parsimony informative sites: 123
+Number of distinct site patterns: 173
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 2.1517
+  A-G: 3.6420
+  A-T: 1.3298
+  C-G: 0.3071
+  C-T: 8.5060
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3188
+  pi(C) = 0.1942
+  pi(G) = 0.2376
+  pi(T) = 0.2494
+
+Rate matrix Q:
+
+  A   -0.8073    0.2089    0.4326    0.1658
+  C    0.3429     -1.44   0.03648      1.06
+  G    0.5804   0.02982   -0.7349    0.1246
+  T    0.2119    0.8259    0.1188    -1.157
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2702
+
+ Category  Relative_rate  Proportion
+  1         0.00319        0.25
+  2         0.08162        0.25
+  3         0.5422         0.25
+  4         3.373          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+LIKELIHOOD MAPPING ANALYSIS
+---------------------------
+
+Number of quartets: 210 (all unique quartets)
+
+Quartet trees are based on the selected model of substitution.
+
+Sequences are not grouped in clusters. Using sequences:
+  1. Anolis
+  2. Gallus
+  3. Homo
+  4. Monodelphis
+  5. Ornithorhynchus
+  6. Taeniopygia
+  7. Xenopus
+  8. alligator
+  9. emys_orbicularis
+  10. phrynops
+
+Ordered as in user-given cluster file, numbers according to alignment order.
+All other sequences have been ignored.
+
+
+
+LIKELIHOOD MAPPING STATISTICS
+-----------------------------
+
+           (a,b)-(c,d)                              (a,b)-(c,d)      
+                /\                                      /\           
+               /  \                                    /  \          
+              /    \                                  /  1 \         
+             /  a1  \                                / \  / \        
+            /\      /\                              /   \/   \       
+           /  \    /  \                            /    /\    \      
+          /    \  /    \                          / 6  /  \  4 \     
+         /      \/      \                        /\   /  7 \   /\    
+        /        |       \                      /  \ /______\ /  \   
+       /   a3    |    a2  \                    / 3  |    5   |  2 \  
+      /__________|_________\                  /_____|________|_____\ 
+(a,d)-(b,c)            (a,c)-(b,d)      (a,d)-(b,c)            (a,c)-(b,d) 
+
+Division of the likelihood mapping plots into 3 or 7 areas.
+On the left the areas show support for one of the different groupings
+like (a,b|c,d).
+On the right the right quartets falling into the areas 1, 2 and 3 are
+informative. Those in the rectangles 4, 5 and 6 are partly informative
+and those in the center (7) are not informative.
+
+Sequences a,b,c,d are drawn from all included sequences.
+
+Note, that the corners only make a difference if the sequences are
+clustered in groups. Furthermore, while sequences should occur about
+equally often in unclustered mappings, in clustered mappings their
+occurrence rates depend on the group sizes the quartets are drawn from.
+
+For more information about likelihood-mapping refer to
+ - Schmidt and von Haeseler (2009) The Phylogenetic Handbook, 2nd Ed.
+   (by Lemey et al., Eds.), 181-209, Cambridge Univ. Press, UK.
+   http://www.thephylogenetichandbook.org
+ - Schmidt and von Haeseler (2003) Current Protocols in Bioinformatics
+   (by Baxevanis et al., Eds.), Unit 6, Wiley&Sons, New York.
+   http://dx.doi.org/10.1002/0471250953.bi0606s17
+and/or
+ - Strimmer and von Haeseler (1997) PNAS 94:6815-6819
+   http://www.ncbi.nlm.nih.gov/pubmed/9192648
+
+
+Quartet support of regions a1, a2, a3 (mainly for clustered analysis):
+
+     #quartets    a1 (% a1)        a2 (% a2)        a3 (% a3)    name
+-----------------------------------------------------------------------------
+1   84       40      (47.62 ) 4       (4.76  ) 40      (47.62 )  Anolis
+2   84       45      (53.57 ) 17      (20.24 ) 22      (26.19 )  Gallus
+3   84       46      (54.76 ) 8       (9.52  ) 30      (35.71 )  Homo
+4   84       47      (55.95 ) 5       (5.95  ) 32      (38.10 )  Monodelphis
+5   84       49      (58.33 ) 7       (8.33  ) 28      (33.33 )  Ornithorhynchus
+6   84       35      (41.67 ) 19      (22.62 ) 30      (35.71 )  Taeniopygia
+7   84       65      (77.38 ) 8       (9.52  ) 11      (13.10 )  Xenopus
+8   84       62      (73.81 ) 6       (7.14  ) 16      (19.05 )  alligator
+9   84       66      (78.57 ) 5       (5.95  ) 13      (15.48 )  emys_orbicularis
+10  84       65      (77.38 ) 5       (5.95  ) 14      (16.67 )  phrynops
+-----------------------------------------------------------------------------
+    210      130     (61.90 ) 21      (10.00 ) 59      (28.10 )  
+
+
+Quartet support of areas 1-7 (mainly for clustered analysis):
+
+                   resolved                                           partly                                             unresolved  name
+     #quartets     1 (% 1)          2 (% 2)          3 (% 3)          4 (% 4)          5 (% 5)          6 (% 6)          7 (% 7)
+------------------------------------------------------------------------------------------------------------------------------------------------
+1   84       28      (33.33 ) 3       (3.57  ) 31      (36.90 ) 0       (0.00  ) 2       (2.38  ) 8       (9.52  ) 12      (14.29 )  Anolis
+2   84       37      (44.05 ) 14      (16.67 ) 13      (15.48 ) 3       (3.57  ) 3       (3.57  ) 6       (7.14  ) 8       (9.52  )  Gallus
+3   84       36      (42.86 ) 5       (5.95  ) 17      (20.24 ) 2       (2.38  ) 5       (5.95  ) 5       (5.95  ) 14      (16.67 )  Homo
+4   84       35      (41.67 ) 4       (4.76  ) 17      (20.24 ) 4       (4.76  ) 7       (8.33  ) 5       (5.95  ) 12      (14.29 )  Monodelphis
+5   84       30      (35.71 ) 5       (5.95  ) 17      (20.24 ) 4       (4.76  ) 6       (7.14  ) 8       (9.52  ) 14      (16.67 )  Ornithorhynchus
+6   84       33      (39.29 ) 14      (16.67 ) 22      (26.19 ) 2       (2.38  ) 8       (9.52  ) 1       (1.19  ) 4       (4.76  )  Taeniopygia
+7   84       50      (59.52 ) 3       (3.57  ) 4       (4.76  ) 4       (4.76  ) 3       (3.57  ) 6       (7.14  ) 14      (16.67 )  Xenopus
+8   84       50      (59.52 ) 2       (2.38  ) 6       (7.14  ) 3       (3.57  ) 2       (2.38  ) 7       (8.33  ) 14      (16.67 )  alligator
+9   84       55      (65.48 ) 3       (3.57  ) 11      (13.10 ) 4       (4.76  ) 2       (2.38  ) 2       (2.38  ) 7       (8.33  )  emys_orbicularis
+10  84       58      (69.05 ) 3       (3.57  ) 10      (11.90 ) 2       (2.38  ) 2       (2.38  ) 4       (4.76  ) 5       (5.95  )  phrynops
+------------------------------------------------------------------------------------------------------------------------------------------------
+    210      103     (49.05 ) 14      (6.67  ) 37      (17.62 ) 7       (3.33  ) 10      (4.76  ) 13      (6.19  ) 26      (12.38 )  
+
+
+
+Quartet resolution per sequence (phylogenetic information):
+
+      #quartets   resolved           partly          unresolved  name
+-----------------------------------------------------------------------------
+1   84       62      (73.81 ) 10      (11.90 ) 12      (14.29 )  Anolis
+2   84       64      (76.19 ) 12      (14.29 ) 8       (9.52  )  Gallus
+3   84       58      (69.05 ) 12      (14.29 ) 14      (16.67 )  Homo
+4   84       56      (66.67 ) 16      (19.05 ) 12      (14.29 )  Monodelphis
+5   84       52      (61.90 ) 18      (21.43 ) 14      (16.67 )  Ornithorhynchus
+6   84       69      (82.14 ) 11      (13.10 ) 4       (4.76  )  Taeniopygia
+7   84       57      (67.86 ) 13      (15.48 ) 14      (16.67 )  Xenopus
+8   84       58      (69.05 ) 12      (14.29 ) 14      (16.67 )  alligator
+9   84       69      (82.14 ) 8       (9.52  ) 7       (8.33  )  emys_orbicularis
+10  84       71      (84.52 ) 8       (9.52  ) 5       (5.95  )  phrynops
+-----------------------------------------------------------------------------
+    210      154     (73.33 ) 30      (14.29 ) 26      (12.38 )  
+Overall quartet resolution:
+
+Number of fully resolved  quartets (regions 1+2+3): 154 (=73.33%)
+Number of partly resolved quartets (regions 4+5+6): 30 (=14.29%)
+Number of unresolved      quartets (region 7)     : 26 (=12.38%)
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -2070.01 (s.e. 83.78)
+Unconstrained log-likelihood (without tree): -1747.25
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 4192.01
+Corrected Akaike information criterion (AICc) score: 4195.40
+Bayesian information criterion (BIC) score: 4298.33
+
+Total tree length (sum of branch lengths): 1.30
+Sum of internal branch lengths: 0.40 (30.64% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Anolis' is drawn at root
+
++--------Anolis
+|
+|    +--Gallus
++----|
+|    +---Taeniopygia
+|
+|     +---Homo
+|  +--|
+|  |  +------Monodelphis
++--|
+   |  +-----Ornithorhynchus
+   +--|
+      |      +----------------------------Xenopus
+      +------|
+             |       +--------------------------------------alligator
+             +-------|
+                     |                  +---emys_orbicularis
+                     +------------------|
+                                        +--phrynops
+
+Tree in newick format:
+
+(Anolis:0.0820902065,(Gallus:0.0115719304,Taeniopygia:0.0417925630):0.0459237002,((Homo:0.0342604509,Monodelphis:0.0628200999):0.0131306684,(Ornithorhynchus:0.0540626705,(Xenopus:0.2448241674,(alligator:0.3267640119,(emys_orbicularis:0.0354626423,phrynops:0.0079155946):0.1634416061):0.0730570895):0.0656341709):0.0106664052):0.0264415765);
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep  4 11:15:15 2019
+Total CPU time used: 0.339769 seconds (0h:0m:0s)
+Total wall-clock time used: 0.190371 seconds (0h:0m:0s)
+

@@ -1,0 +1,55 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML IC and TC score Computation: Computing IC and TC scores induced by trees in file ForTCA.boottrees w.r.t. tree in file ForTCA.treefile
+
+
+RAxML was called as follows:
+
+raxmlHPC-AVX -f i -m GTRCAT -t ForTCA.treefile -z ForTCA.boottrees -n test 
+
+
+
+
+Found 1 tree in File ForTCA.treefile
+
+
+
+Found 100 trees in File ForTCA.boottrees
+
+All trees in tree set have the same size, executing standard IC/TC algorithm ... 
+
+
+Found 1 tree in File ForTCA.treefile
+
+Tree certainty for this tree: 33.341241
+Relative tree certainty for this tree: 0.340217
+
+Tree certainty including all conflicting bipartitions (TCA) for this tree: 34.947959
+Relative tree certainty including all conflicting bipartitions (TCA) for this tree: 0.356612
+
+
+
+Time for Computation of TC and IC scores 0.073703
+
+Tree with IC scores as branch labels written to file:  /Users/joseph.walker/Desktop/Outliers/6349_C12/RAxML_IC_Score_BranchLabels.test
+Execution information file written to :  /Users/joseph.walker/Desktop/Outliers/6349_C12/RAxML_info.test
+
